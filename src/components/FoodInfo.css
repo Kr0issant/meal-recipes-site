@@ -374,6 +374,47 @@
         top: auto;
     }
 
+    .food-info-img-container:hover .food-info-favorite {
+        opacity: 1;
+    }
+
+    .food-info-img-container .diet-indicator {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 24px;
+        height: 24px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 2px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        padding: 3px;
+    }
+
+    .food-info-img-container .diet-indicator.veg {
+        border-color: #2e7d32;
+    }
+
+    .food-info-img-container .diet-indicator.non-veg {
+        border-color: #c62828;
+    }
+
+    .food-info-img-container .diet-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    .food-info-img-container .veg .diet-dot {
+        background-color: #2e7d32;
+    }
+
+    .food-info-img-container .non-veg .diet-dot {
+        background-color: #c62828;
+    }
+
     /* We need the title ONLY to be above the image */
     .food-info-left,
     .food-info-right {

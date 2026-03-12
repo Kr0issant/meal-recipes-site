@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Banner from './Banner';
 import FoodCard from "./FoodCard";
-import '../App.css';
+import mealsData from '../data/meals.json';
 
 function Home() {
     const [meals, setMeals] = useState(Array(10).fill(null));
@@ -18,6 +18,8 @@ function Home() {
                     .then(res => res.json())
                     .then(data => {
                         const meal = data.meals[0];
+                        const mealDietary = mealsData.find(m => m.id === meal.idMeal);
+                        const isVegetarian = mealDietary ? mealDietary.isVegetarian : false;
 
                         const ingredientsCount = Array.from({ length: 20 })
                             .filter((_, i) => {
@@ -33,7 +35,7 @@ function Home() {
 
                         setMeals(prev => {
                             const newMeals = [...prev];
-                            newMeals[index] = { ...meal, customTime, customRating, customDescription };
+                            newMeals[index] = { ...meal, customTime, customRating, customDescription, isVegetarian };
                             return newMeals;
                         });
                     })
@@ -58,6 +60,7 @@ function Home() {
                             image={meal.strMealThumb}
                             time={meal.customTime}
                             rating={meal.customRating}
+                            isVegetarian={meal.isVegetarian}
                         />
                     ) : (
                         <div key={index} className="food-card skeleton-card">

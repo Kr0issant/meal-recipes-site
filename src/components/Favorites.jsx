@@ -32,6 +32,7 @@ function Favorites() {
                             image={meal.image}
                             time={meal.time}
                             rating={meal.rating}
+                            isVegetarian={meal.isVegetarian}
                         />
                     ))}
                 </div>

@@ -10,7 +10,8 @@ function FoodCard({
     description = "Fluffy morning pancakes with warm maple syrup and fresh berries.",
     time = "20 min",
     rating = "4.8",
-    image = "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&q=80&w=800"
+    image = "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&q=80&w=800",
+    isVegetarian = false
 }) {
     const [isInfoOpen, setIsInfoOpen] = useState(false);
     const [isFavorite, setIsFavorite] = useState(false);
@@ -28,7 +29,7 @@ function FoodCard({
         if (isFavorite) {
             newFavorites = favorites.filter(fav => fav.id !== id);
         } else {
-            const newFav = { id, title, description, time, rating, image };
+            const newFav = { id, title, description, time, rating, image, isVegetarian };
             newFavorites = [...favorites, newFav];
         }
 
@@ -44,6 +45,9 @@ function FoodCard({
             <div className="food-card" onClick={() => setIsInfoOpen(true)} style={{ cursor: 'pointer' }}>
                 <div className="food-card-img-container">
                     <img src={image} alt={title} className="food-card-img" />
+                    <div className={`diet-indicator ${isVegetarian ? 'veg' : 'non-veg'}`} title={isVegetarian ? 'Vegetarian' : 'Non-Vegetarian'}>
+                        <div className="diet-dot"></div>
+                    </div>
                     <button
                         className={`favorite-btn ${isFavorite ? 'is-favorite' : ''}`}
                         onClick={toggleFavorite}

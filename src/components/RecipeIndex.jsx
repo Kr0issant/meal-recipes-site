@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import FoodCard from './FoodCard';
 import './RecipeIndex.css';
+import mealsData from '../data/meals.json';
 import '../App.css';
 
 function Index() {
@@ -22,6 +23,9 @@ function Index() {
 
                 if (data.meals) {
                     const processedMeals = data.meals.map(meal => {
+                        const mealDietary = mealsData.find(m => m.id === meal.idMeal);
+                        const isVegetarian = mealDietary ? mealDietary.isVegetarian : false;
+
                         const ingredientsCount = Array.from({ length: 20 })
                             .filter((_, i) => {
                                 const ing = meal[`strIngredient${i + 1}`];
@@ -34,7 +38,7 @@ function Index() {
                         const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
                         const customDescription = `A ${randomAdjective} ${meal.strArea} ${meal.strCategory.toLowerCase()} dish.`;
 
-                        return { ...meal, customTime, customRating, customDescription };
+                        return { ...meal, customTime, customRating, customDescription, isVegetarian };
                     });
                     setMeals(processedMeals);
                 } else {
@@ -84,6 +88,7 @@ function Index() {
                                 image={meal.strMealThumb}
                                 time={meal.customTime}
                                 rating={meal.customRating}
+                                isVegetarian={meal.isVegetarian}
                             />
                         ) : (
                             <div key={`skeleton-${index}`} className="food-card skeleton-card">

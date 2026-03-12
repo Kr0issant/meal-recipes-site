@@ -8,7 +8,6 @@ import { Link, NavLink } from "react-router-dom";
 import Search from "./Search";
 
 function Navbar() {
-    const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [favCount, setFavCount] = useState(0);
 
     const updateFavCount = () => {
@@ -21,10 +20,6 @@ function Navbar() {
         window.addEventListener('favoritesUpdated', updateFavCount);
         return () => window.removeEventListener('favoritesUpdated', updateFavCount);
     }, []);
-
-    const toggleSearch = () => {
-        setIsSearchOpen(!isSearchOpen);
-    };
 
     return (
         <>
@@ -40,14 +35,11 @@ function Navbar() {
                     <li><NavLink to="/categories" className="nav-link">Categories</NavLink></li>
                     <li><NavLink to="/recipe-index" className="nav-link">Recipe Index</NavLink></li>
                     <li>
-                        <img
-                            src={searchIcon}
-                            height="32"
-                            width="32"
-                            alt="search"
-                            onClick={toggleSearch}
-                            style={{ cursor: 'pointer' }}
-                        />
+                        <NavLink to="/search" className="nav-link-icon">
+                            <div className="nav-search-container">
+                                <img src={searchIcon} height="32" width="32" alt="search" />
+                            </div>
+                        </NavLink>
                     </li>
                     <li>
                         <NavLink to="/favorites" className="nav-link-icon">
@@ -60,7 +52,6 @@ function Navbar() {
                 </ul>
             </div>
 
-            <Search isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
         </>
     );
 }

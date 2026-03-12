@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import axios from 'axios';
 import './FoodInfo.css';
+import mealsData from '../data/meals.json';
 
 function FoodInfo({ id, onClose }) {
     const [recipe, setRecipe] = useState(null);
@@ -100,14 +101,21 @@ function FoodInfo({ id, onClose }) {
             return 'tag-misc';
         };
 
+        const isVegetarian = mealsData.find(m => m.id === id)?.isVegetarian ?? false;
+
         return (
             <div className="food-info-grid">
                 <div className="food-info-left">
-                    <img
-                        src={recipe.strMealThumb}
-                        alt={recipe.strMeal}
-                        className="food-info-image"
-                    />
+                    <div className="food-info-img-container">
+                        <img
+                            src={recipe.strMealThumb}
+                            alt={recipe.strMeal}
+                            className="food-info-image"
+                        />
+                        <div className={`diet-indicator ${isVegetarian ? 'veg' : 'non-veg'}`} title={isVegetarian ? 'Vegetarian' : 'Non-Vegetarian'}>
+                            <div className="diet-dot"></div>
+                        </div>
+                    </div>
                     <div className="food-info-meta">
                         <span className="food-info-area tag-area">
                             {recipe.strArea}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import FoodCard from './FoodCard';
 import './Categories.css';
+import mealsData from '../data/meals.json';
 import '../App.css';
 
 const CATEGORIES = [
@@ -24,6 +25,9 @@ function CategoryRow({ category }) {
                     const selected = shuffled.slice(0, 4);
 
                     const processed = selected.map(meal => {
+                        const mealDietary = mealsData.find(m => m.id === meal.idMeal);
+                        const isVegetarian = mealDietary ? mealDietary.isVegetarian : false;
+
                         // In filter.php, we don't get full details, so we can't count ingredients 
                         // unless we fetch each meal. For now, let's use a random count between 5-15
                         const ingredientsCount = Math.floor(Math.random() * 10) + 5;
@@ -33,7 +37,7 @@ function CategoryRow({ category }) {
                         const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
                         const customDescription = `A ${randomAdjective} ${category.toLowerCase()} dish.`;
 
-                        return { ...meal, customTime, customRating, customDescription };
+                        return { ...meal, customTime, customRating, customDescription, isVegetarian };
                     });
 
                     setBannerMeal(processed[0]);
@@ -76,6 +80,7 @@ function CategoryRow({ category }) {
                             image={meal.strMealThumb}
                             time={meal.customTime}
                             rating={meal.customRating}
+                            isVegetarian={meal.isVegetarian}
                         />
                     ) : (
                         <div key={index} className="food-card skeleton-card">

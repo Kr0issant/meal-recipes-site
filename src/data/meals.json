@@ -1,0 +1,2987 @@
+[
+    {
+        "id": "53262",
+        "title": "Adana kebab",
+        "isVegetarian": false
+    },
+    {
+        "id": "53373",
+        "title": "Air Fryer Egg Rolls",
+        "isVegetarian": false
+    },
+    {
+        "id": "53158",
+        "title": "Air fryer patatas bravas",
+        "isVegetarian": true
+    },
+    {
+        "id": "53169",
+        "title": "Ajo blanco",
+        "isVegetarian": true
+    },
+    {
+        "id": "53138",
+        "title": "Alfajores",
+        "isVegetarian": false
+    },
+    {
+        "id": "53284",
+        "title": "Algerian Bouzgene Berber Bread with Roasted Pepper Sauce",
+        "isVegetarian": true
+    },
+    {
+        "id": "53282",
+        "title": "Algerian Carrots",
+        "isVegetarian": true
+    },
+    {
+        "id": "53288",
+        "title": "Algerian Flafla (Bell Pepper Salad)",
+        "isVegetarian": true
+    },
+    {
+        "id": "53281",
+        "title": "Algerian Kefta (Meatballs)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53111",
+        "title": "Anzac biscuits",
+        "isVegetarian": true
+    },
+    {
+        "id": "53049",
+        "title": "Apam balik",
+        "isVegetarian": false
+    },
+    {
+        "id": "52893",
+        "title": "Apple & Blackberry Crumble",
+        "isVegetarian": true
+    },
+    {
+        "id": "53380",
+        "title": "Apple cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52768",
+        "title": "Apple Frangipan Tart",
+        "isVegetarian": false
+    },
+    {
+        "id": "53276",
+        "title": "Apricot & Turkish delight mess",
+        "isVegetarian": true
+    },
+    {
+        "id": "53334",
+        "title": "Arepa Pabell\u00f3n",
+        "isVegetarian": false
+    },
+    {
+        "id": "53329",
+        "title": "Arepa pelua",
+        "isVegetarian": false
+    },
+    {
+        "id": "53156",
+        "title": "Arroz al horno (baked rice)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53147",
+        "title": "Arroz con gambas y calamar",
+        "isVegetarian": false
+    },
+    {
+        "id": "53133",
+        "title": "Asado",
+        "isVegetarian": false
+    },
+    {
+        "id": "53278",
+        "title": "Aubergine & hummus grills",
+        "isVegetarian": true
+    },
+    {
+        "id": "53267",
+        "title": "Aubergine couscous salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53099",
+        "title": "Aussie Burgers",
+        "isVegetarian": false
+    },
+    {
+        "id": "53127",
+        "title": "Authentic Norwegian Kransekake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53107",
+        "title": "Avocado dip with new potatoes",
+        "isVegetarian": true
+    },
+    {
+        "id": "53050",
+        "title": "Ayam Percik",
+        "isVegetarian": false
+    },
+    {
+        "id": "53120",
+        "title": "Æbleskiver",
+        "isVegetarian": false
+    },
+    {
+        "id": "53094",
+        "title": "Baba Ghanoush",
+        "isVegetarian": false
+    },
+    {
+        "id": "52807",
+        "title": "Baingan Bharta",
+        "isVegetarian": true
+    },
+    {
+        "id": "52959",
+        "title": "Baked salmon with fennel & tomatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52767",
+        "title": "Bakewell tart",
+        "isVegetarian": false
+    },
+    {
+        "id": "53279",
+        "title": "Baklava with spiced nuts, ricotta & chocolate",
+        "isVegetarian": true
+    },
+    {
+        "id": "52855",
+        "title": "Banana Pancakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53239",
+        "title": "Bang bang prawn salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53242",
+        "title": "Barbecue pork buns",
+        "isVegetarian": false
+    },
+    {
+        "id": "53103",
+        "title": "Barramundi with Moroccan spices",
+        "isVegetarian": false
+    },
+    {
+        "id": "52894",
+        "title": "Battenberg Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52995",
+        "title": "BBQ Pork Sloppy Joes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52848",
+        "title": "Bean & Sausage Hotpot",
+        "isVegetarian": true
+    },
+    {
+        "id": "52928",
+        "title": "BeaverTails",
+        "isVegetarian": false
+    },
+    {
+        "id": "53366",
+        "title": "Beef and Broccoli Stir-Fry",
+        "isVegetarian": false
+    },
+    {
+        "id": "52874",
+        "title": "Beef and Mustard Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52878",
+        "title": "Beef and Oyster pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53071",
+        "title": "Beef Asado",
+        "isVegetarian": false
+    },
+    {
+        "id": "52997",
+        "title": "Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber",
+        "isVegetarian": false
+    },
+    {
+        "id": "52904",
+        "title": "Beef Bourguignon",
+        "isVegetarian": false
+    },
+    {
+        "id": "52812",
+        "title": "Beef Brisket Pot Roast",
+        "isVegetarian": false
+    },
+    {
+        "id": "53070",
+        "title": "Beef Caldereta",
+        "isVegetarian": false
+    },
+    {
+        "id": "52873",
+        "title": "Beef Dumpling Stew",
+        "isVegetarian": false
+    },
+    {
+        "id": "53317",
+        "title": "Beef Empanadas",
+        "isVegetarian": false
+    },
+    {
+        "id": "52952",
+        "title": "Beef Lo Mein",
+        "isVegetarian": false
+    },
+    {
+        "id": "53359",
+        "title": "Beef Mandi",
+        "isVegetarian": false
+    },
+    {
+        "id": "53068",
+        "title": "Beef Mechado",
+        "isVegetarian": false
+    },
+    {
+        "id": "53238",
+        "title": "Beef pho",
+        "isVegetarian": false
+    },
+    {
+        "id": "53053",
+        "title": "Beef Rendang",
+        "isVegetarian": false
+    },
+    {
+        "id": "52834",
+        "title": "Beef stroganoff",
+        "isVegetarian": false
+    },
+    {
+        "id": "52824",
+        "title": "Beef Sunday Roast",
+        "isVegetarian": false
+    },
+    {
+        "id": "52803",
+        "title": "Beef Wellington",
+        "isVegetarian": false
+    },
+    {
+        "id": "53307",
+        "title": "Beetroot & red cabbage sauerkraut",
+        "isVegetarian": true
+    },
+    {
+        "id": "53313",
+        "title": "Beetroot latkes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53316",
+        "title": "Beetroot pancakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53078",
+        "title": "Beetroot Soup (Borscht)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53013",
+        "title": "Big Mac",
+        "isVegetarian": false
+    },
+    {
+        "id": "53018",
+        "title": "Bigos (Hunters Stew)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53300",
+        "title": "Bigos (Polish hunter's stew)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53069",
+        "title": "Bistek",
+        "isVegetarian": false
+    },
+    {
+        "id": "52979",
+        "title": "Bitterballen (Dutch meatballs)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52891",
+        "title": "Blackberry Fool",
+        "isVegetarian": true
+    },
+    {
+        "id": "53080",
+        "title": "Blini Pancakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53100",
+        "title": "Blueberry & lemon friands",
+        "isVegetarian": false
+    },
+    {
+        "id": "53311",
+        "title": "Borsch",
+        "isVegetarian": false
+    },
+    {
+        "id": "52914",
+        "title": "Boulang\u00e8re Potatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53036",
+        "title": "Boxty Breakfast",
+        "isVegetarian": false
+    },
+    {
+        "id": "52826",
+        "title": "Braised Beef Chilli",
+        "isVegetarian": false
+    },
+    {
+        "id": "53305",
+        "title": "Braised stuffed cabbage",
+        "isVegetarian": false
+    },
+    {
+        "id": "52792",
+        "title": "Bread and Butter Pudding",
+        "isVegetarian": false
+    },
+    {
+        "id": "53076",
+        "title": "Bread omelette",
+        "isVegetarian": false
+    },
+    {
+        "id": "52965",
+        "title": "Breakfast Potatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52913",
+        "title": "Brie wrapped in prosciutto & brioche",
+        "isVegetarian": false
+    },
+    {
+        "id": "52842",
+        "title": "Broccoli & Stilton soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "52940",
+        "title": "Brown Stew Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53126",
+        "title": "Brun Lapskaus (Norwegian Beef Vegetable Stew)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53190",
+        "title": "Bryndzov\u00e9 Halu\u0161ky",
+        "isVegetarian": false
+    },
+    {
+        "id": "52961",
+        "title": "Budino Di Ricotta",
+        "isVegetarian": false
+    },
+    {
+        "id": "53060",
+        "title": "Burek",
+        "isVegetarian": false
+    },
+    {
+        "id": "53077",
+        "title": "Cabbage Soup (Shchi)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53256",
+        "title": "Cacik",
+        "isVegetarian": true
+    },
+    {
+        "id": "52885",
+        "title": "Bubble & Squeak",
+        "isVegetarian": false
+    },
+    {
+        "id": "52819",
+        "title": "Cajun spiced fish tacos",
+        "isVegetarian": false
+    },
+    {
+        "id": "53361",
+        "title": "Callaloo and SaltFish",
+        "isVegetarian": false
+    },
+    {
+        "id": "52939",
+        "title": "Callaloo Jamaican Style",
+        "isVegetarian": false
+    },
+    {
+        "id": "52923",
+        "title": "Canadian Butter Tarts",
+        "isVegetarian": false
+    },
+    {
+        "id": "53141",
+        "title": "Carbonada Criolla",
+        "isVegetarian": false
+    },
+    {
+        "id": "53360",
+        "title": "Caribbean Tamarind balls",
+        "isVegetarian": true
+    },
+    {
+        "id": "52897",
+        "title": "Carrot Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52976",
+        "title": "Cashew Ghoriba Biscuits",
+        "isVegetarian": false
+    },
+    {
+        "id": "53330",
+        "title": "Cassava pizza",
+        "isVegetarian": false
+    },
+    {
+        "id": "53055",
+        "title": "Cevapi Sausages",
+        "isVegetarian": false
+    },
+    {
+        "id": "52969",
+        "title": "Chakchouka ",
+        "isVegetarian": false
+    },
+    {
+        "id": "53310",
+        "title": "Challah",
+        "isVegetarian": false
+    },
+    {
+        "id": "53290",
+        "title": "Cheese Borek",
+        "isVegetarian": false
+    },
+    {
+        "id": "52898",
+        "title": "Chelsea Buns",
+        "isVegetarian": false
+    },
+    {
+        "id": "53016",
+        "title": "Chick-Fil-A Sandwich",
+        "isVegetarian": false
+    },
+    {
+        "id": "53161",
+        "title": "Chicken & chorizo rice pot",
+        "isVegetarian": false
+    },
+    {
+        "id": "52846",
+        "title": "Chicken & mushroom Hotpot",
+        "isVegetarian": false
+    },
+    {
+        "id": "52796",
+        "title": "Chicken Alfredo Primavera",
+        "isVegetarian": false
+    },
+    {
+        "id": "52934",
+        "title": "Chicken Basquaise",
+        "isVegetarian": false
+    },
+    {
+        "id": "52956",
+        "title": "Chicken Congee",
+        "isVegetarian": false
+    },
+    {
+        "id": "52850",
+        "title": "Chicken Couscous",
+        "isVegetarian": false
+    },
+    {
+        "id": "52765",
+        "title": "Chicken Enchilada Casserole",
+        "isVegetarian": false
+    },
+    {
+        "id": "52818",
+        "title": "Chicken Fajita Mac and Cheese",
+        "isVegetarian": false
+    },
+    {
+        "id": "53367",
+        "title": "Chicken Fried Rice",
+        "isVegetarian": false
+    },
+    {
+        "id": "52875",
+        "title": "Chicken Ham and Leek Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52795",
+        "title": "Chicken Handi",
+        "isVegetarian": false
+    },
+    {
+        "id": "52831",
+        "title": "Chicken Karaage",
+        "isVegetarian": false
+    },
+    {
+        "id": "53358",
+        "title": "Chicken Mandi",
+        "isVegetarian": false
+    },
+    {
+        "id": "52920",
+        "title": "Chicken Marengo",
+        "isVegetarian": false
+    },
+    {
+        "id": "52879",
+        "title": "Chicken Parmentier",
+        "isVegetarian": false
+    },
+    {
+        "id": "53011",
+        "title": "Chicken Quinoa Greek Salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53218",
+        "title": "Chicken Shawarma with homemade garlic herb yoghurt sauce",
+        "isVegetarian": false
+    },
+    {
+        "id": "53261",
+        "title": "Chicken wings with cumin, lemon & garlic",
+        "isVegetarian": false
+    },
+    {
+        "id": "53186",
+        "title": "Chicken with saffron, raisins & pine nuts",
+        "isVegetarian": false
+    },
+    {
+        "id": "52870",
+        "title": "Chickpea Fajitas",
+        "isVegetarian": true
+    },
+    {
+        "id": "53166",
+        "title": "Chickpea, chorizo & spinach stew",
+        "isVegetarian": false
+    },
+    {
+        "id": "53265",
+        "title": "Chilli ginger lamb chops",
+        "isVegetarian": false
+    },
+    {
+        "id": "52839",
+        "title": "Chilli prawn linguine",
+        "isVegetarian": false
+    },
+    {
+        "id": "53365",
+        "title": "Chinese Orange Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53372",
+        "title": "Chinese Tomato Egg Stir Fry",
+        "isVegetarian": false
+    },
+    {
+        "id": "52910",
+        "title": "Chinon Apple Tarts",
+        "isVegetarian": true
+    },
+    {
+        "id": "53319",
+        "title": "Chivito sandwich",
+        "isVegetarian": false
+    },
+    {
+        "id": "53063",
+        "title": "Chivito uruguayo",
+        "isVegetarian": false
+    },
+    {
+        "id": "52856",
+        "title": "Choc Chip Pecan Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53320",
+        "title": "Chocolate alfajores",
+        "isVegetarian": false
+    },
+    {
+        "id": "52853",
+        "title": "Chocolate Avocado Mousse",
+        "isVegetarian": true
+    },
+    {
+        "id": "52966",
+        "title": "Chocolate Caramel Crispy",
+        "isVegetarian": true
+    },
+    {
+        "id": "53170",
+        "title": "Chocolate churros with chocolate & salted caramel sauce",
+        "isVegetarian": true
+    },
+    {
+        "id": "53101",
+        "title": "Chocolate Coconut Squares",
+        "isVegetarian": false
+    },
+    {
+        "id": "53324",
+        "title": "Chocolate empanadas",
+        "isVegetarian": false
+    },
+    {
+        "id": "52776",
+        "title": "Chocolate Gateau",
+        "isVegetarian": false
+    },
+    {
+        "id": "52860",
+        "title": "Chocolate Raspberry Brownies",
+        "isVegetarian": false
+    },
+    {
+        "id": "52905",
+        "title": "Chocolate Souffle",
+        "isVegetarian": false
+    },
+    {
+        "id": "53289",
+        "title": "Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53136",
+        "title": "Chorip\u00e1n",
+        "isVegetarian": false
+    },
+    {
+        "id": "53168",
+        "title": "Chorizo & chickpea soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53157",
+        "title": "Chorizo & soft-boiled egg salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53185",
+        "title": "Chorizo & tomato salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53159",
+        "title": "Chorizo, potato & cheese omelette",
+        "isVegetarian": false
+    },
+    {
+        "id": "52990",
+        "title": "Christmas cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52788",
+        "title": "Christmas Pudding Flapjack",
+        "isVegetarian": true
+    },
+    {
+        "id": "52989",
+        "title": "Christmas Pudding Trifle",
+        "isVegetarian": true
+    },
+    {
+        "id": "53283",
+        "title": "Chtitha Batata (Algerian Potato Stew)",
+        "isVegetarian": true
+    },
+    {
+        "id": "53153",
+        "title": "Churros",
+        "isVegetarian": true
+    },
+    {
+        "id": "53116",
+        "title": "Cinnamon buns",
+        "isVegetarian": false
+    },
+    {
+        "id": "52840",
+        "title": "Clam chowder",
+        "isVegetarian": false
+    },
+    {
+        "id": "53154",
+        "title": "Clam, chorizo & white bean stew",
+        "isVegetarian": false
+    },
+    {
+        "id": "52988",
+        "title": "Classic Christmas pudding",
+        "isVegetarian": false
+    },
+    {
+        "id": "53343",
+        "title": "Classic Tourti\u00e8re",
+        "isVegetarian": false
+    },
+    {
+        "id": "53037",
+        "title": "Coddled pork with cider",
+        "isVegetarian": false
+    },
+    {
+        "id": "52832",
+        "title": "Coq au vin",
+        "isVegetarian": false
+    },
+    {
+        "id": "52977",
+        "title": "Corba",
+        "isVegetarian": false
+    },
+    {
+        "id": "52998",
+        "title": "Corned Beef and Cabbage",
+        "isVegetarian": false
+    },
+    {
+        "id": "53350",
+        "title": "Corned Beef and Cabbage \u2013 Jamaican Style",
+        "isVegetarian": false
+    },
+    {
+        "id": "53096",
+        "title": "Corned Beef Hash",
+        "isVegetarian": false
+    },
+    {
+        "id": "53291",
+        "title": "Cornes de Gazelle (Gazelle Horns)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52779",
+        "title": "Cream Cheese Tart",
+        "isVegetarian": false
+    },
+    {
+        "id": "52841",
+        "title": "Creamy Tomato Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53148",
+        "title": "Crema Catalana",
+        "isVegetarian": false
+    },
+    {
+        "id": "53072",
+        "title": "Crispy Eggplant",
+        "isVegetarian": false
+    },
+    {
+        "id": "52999",
+        "title": "Crispy Sausages and Greens",
+        "isVegetarian": false
+    },
+    {
+        "id": "53058",
+        "title": "Croatian Bean Stew",
+        "isVegetarian": false
+    },
+    {
+        "id": "53056",
+        "title": "Croatian lamb peka",
+        "isVegetarian": false
+    },
+    {
+        "id": "52830",
+        "title": "Crock Pot Chicken Baked Tacos",
+        "isVegetarian": false
+    },
+    {
+        "id": "53309",
+        "title": "Cucumber & fennel salad",
+        "isVegetarian": true
+    },
+    {
+        "id": "53098",
+        "title": "Cumberland Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52785",
+        "title": "Dal fry",
+        "isVegetarian": true
+    },
+    {
+        "id": "53338",
+        "title": "Date squares",
+        "isVegetarian": true
+    },
+    {
+        "id": "53193",
+        "title": "Drunken noodles (pad kee mao)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52907",
+        "title": "Duck Confit",
+        "isVegetarian": false
+    },
+    {
+        "id": "53137",
+        "title": "Dulce de Leche",
+        "isVegetarian": true
+    },
+    {
+        "id": "52899",
+        "title": "Dundee cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53379",
+        "title": "Dutch poffertjes (mini pancakes)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53382",
+        "title": "Dutch stroopwafel",
+        "isVegetarian": false
+    },
+    {
+        "id": "53285",
+        "title": "Dziriat (Algerian Almond Tarts)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53143",
+        "title": "Easy Spanish chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "52888",
+        "title": "Eccles Cakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52955",
+        "title": "Egg Drop Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53370",
+        "title": "Egg Foo Young",
+        "isVegetarian": false
+    },
+    {
+        "id": "53073",
+        "title": "Eggplant Adobo",
+        "isVegetarian": false
+    },
+    {
+        "id": "53031",
+        "title": "Egyptian Fatteh",
+        "isVegetarian": false
+    },
+    {
+        "id": "53134",
+        "title": "Empanadas",
+        "isVegetarian": false
+    },
+    {
+        "id": "52895",
+        "title": "English Breakfast",
+        "isVegetarian": false
+    },
+    {
+        "id": "53149",
+        "title": "Ensaimada",
+        "isVegetarian": false
+    },
+    {
+        "id": "52944",
+        "title": "Escovitch Fish",
+        "isVegetarian": false
+    },
+    {
+        "id": "52791",
+        "title": "Eton Mess",
+        "isVegetarian": true
+    },
+    {
+        "id": "53254",
+        "title": "Ezme",
+        "isVegetarian": true
+    },
+    {
+        "id": "53139",
+        "title": "Fain\u00e1",
+        "isVegetarian": true
+    },
+    {
+        "id": "53266",
+        "title": "Falafel",
+        "isVegetarian": false
+    },
+    {
+        "id": "53091",
+        "title": "Falafel Pita Sandwich with Tahini Sauce",
+        "isVegetarian": true
+    },
+    {
+        "id": "53123",
+        "title": "F\u00e5rik\u00e5l (Norwegian National Dish)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53188",
+        "title": "Fa\u0161\u00edrky",
+        "isVegetarian": false
+    },
+    {
+        "id": "53092",
+        "title": "Fasoliyyeh Bi Z-Zayt (Syrian Green Beans with Olive Oil)",
+        "isVegetarian": true
+    },
+    {
+        "id": "52919",
+        "title": "Fennel Dauphinoise",
+        "isVegetarian": true
+    },
+    {
+        "id": "53030",
+        "title": "Feteer Meshaltet",
+        "isVegetarian": true
+    },
+    {
+        "id": "53064",
+        "title": "Fettuccine Alfredo",
+        "isVegetarian": true
+    },
+    {
+        "id": "52835",
+        "title": "Fettucine alfredo",
+        "isVegetarian": true
+    },
+    {
+        "id": "53342",
+        "title": "Figgy Duff",
+        "isVegetarian": true
+    },
+    {
+        "id": "53043",
+        "title": "Fish fofos",
+        "isVegetarian": false
+    },
+    {
+        "id": "52802",
+        "title": "Fish pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53079",
+        "title": "Fish Soup (Ukha)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52918",
+        "title": "Fish Stew with Rouille",
+        "isVegetarian": false
+    },
+    {
+        "id": "53122",
+        "title": "Fiskesuppe (Creamy Norwegian Fish Soup)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52906",
+        "title": "Flamiche",
+        "isVegetarian": false
+    },
+    {
+        "id": "53322",
+        "title": "Flan",
+        "isVegetarian": false
+    },
+    {
+        "id": "53341",
+        "title": "Flapper Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52815",
+        "title": "French Lentils With Garlic and Thyme",
+        "isVegetarian": true
+    },
+    {
+        "id": "52915",
+        "title": "French Omelette",
+        "isVegetarian": false
+    },
+    {
+        "id": "52996",
+        "title": "French Onion Chicken with Roasted Carrots & Mashed Potatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52903",
+        "title": "French Onion Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53061",
+        "title": "Fresh sardines",
+        "isVegetarian": false
+    },
+    {
+        "id": "53178",
+        "title": "Fried calamari",
+        "isVegetarian": false
+    },
+    {
+        "id": "52957",
+        "title": "Fruit and Cream Cheese Breakfast Pastries",
+        "isVegetarian": true
+    },
+    {
+        "id": "53025",
+        "title": "Ful Medames",
+        "isVegetarian": true
+    },
+    {
+        "id": "52896",
+        "title": "Full English Breakfast",
+        "isVegetarian": false
+    },
+    {
+        "id": "53131",
+        "title": "Fyrstekake \u2013 Norwegian Prince Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53144",
+        "title": "Gambas al ajillo",
+        "isVegetarian": false
+    },
+    {
+        "id": "52764",
+        "title": "Garides Saganaki",
+        "isVegetarian": false
+    },
+    {
+        "id": "53180",
+        "title": "Garlicky prawns with sherry",
+        "isVegetarian": false
+    },
+    {
+        "id": "52951",
+        "title": "General Tsos Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53381",
+        "title": "Gevulde speculaas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53012",
+        "title": "Gigantes Plaki",
+        "isVegetarian": true
+    },
+    {
+        "id": "53021",
+        "title": "Golabki (cabbage roll)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53346",
+        "title": "Grape Nut Ice Cream",
+        "isVegetarian": true
+    },
+    {
+        "id": "53274",
+        "title": "Griddled aubergines with sesame dressing",
+        "isVegetarian": true
+    },
+    {
+        "id": "53272",
+        "title": "Griddled flatbreads",
+        "isVegetarian": true
+    },
+    {
+        "id": "53255",
+        "title": "Grilled aubergines with spicy chickpeas & walnut sauce",
+        "isVegetarian": true
+    },
+    {
+        "id": "53074",
+        "title": "Grilled eggplant with coconut milk",
+        "isVegetarian": true
+    },
+    {
+        "id": "52829",
+        "title": "Grilled Mac and Cheese Sandwich",
+        "isVegetarian": true
+    },
+    {
+        "id": "53041",
+        "title": "Grilled Portuguese sardines",
+        "isVegetarian": false
+    },
+    {
+        "id": "53179",
+        "title": "Ham croquetas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53035",
+        "title": "Ham hock colcannon",
+        "isVegetarian": false
+    },
+    {
+        "id": "53340",
+        "title": "Hodge Podge",
+        "isVegetarian": true
+    },
+    {
+        "id": "52967",
+        "title": "Home-made Mandazi",
+        "isVegetarian": false
+    },
+    {
+        "id": "52993",
+        "title": "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52773",
+        "title": "Honey Teriyaki Salmon",
+        "isVegetarian": false
+    },
+    {
+        "id": "53007",
+        "title": "Honey Yogurt Cheesecake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52954",
+        "title": "Hot and Sour Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "52787",
+        "title": "Hot Chocolate Fudge",
+        "isVegetarian": true
+    },
+    {
+        "id": "53258",
+        "title": "Hot cumin lamb wrap with crunchy slaw & spicy mayo",
+        "isVegetarian": false
+    },
+    {
+        "id": "53269",
+        "title": "Hummus",
+        "isVegetarian": true
+    },
+    {
+        "id": "53253",
+        "title": "Imam bayildi with BBQ lamb & tzatziki",
+        "isVegetarian": false
+    },
+    {
+        "id": "52781",
+        "title": "Irish stew",
+        "isVegetarian": false
+    },
+    {
+        "id": "53339",
+        "title": "Jam jam cookies",
+        "isVegetarian": false
+    },
+    {
+        "id": "52890",
+        "title": "Jam Roly-Poly",
+        "isVegetarian": false
+    },
+    {
+        "id": "53351",
+        "title": "Jamaican Banana Fritters",
+        "isVegetarian": true
+    },
+    {
+        "id": "52938",
+        "title": "Jamaican Beef Patties",
+        "isVegetarian": false
+    },
+    {
+        "id": "53353",
+        "title": "Jamaican Boiled Dumplings",
+        "isVegetarian": true
+    },
+    {
+        "id": "53363",
+        "title": "Jamaican Cornmeal Porridge",
+        "isVegetarian": true
+    },
+    {
+        "id": "53345",
+        "title": "Jamaican Curry Chicken Recipe",
+        "isVegetarian": false
+    },
+    {
+        "id": "53354",
+        "title": "Jamaican Curry Goat",
+        "isVegetarian": false
+    },
+    {
+        "id": "53362",
+        "title": "Jamaican Curry Shrimp Recipe",
+        "isVegetarian": false
+    },
+    {
+        "id": "53355",
+        "title": "Jamaican Festival (Sweet Dumpling)",
+        "isVegetarian": true
+    },
+    {
+        "id": "53356",
+        "title": "Jamaican Fried Dumplings",
+        "isVegetarian": true
+    },
+    {
+        "id": "53352",
+        "title": "Jamaican Instant Pot Rice and Beans",
+        "isVegetarian": false
+    },
+    {
+        "id": "53349",
+        "title": "Jamaican Pepper Shrimp",
+        "isVegetarian": false
+    },
+    {
+        "id": "53357",
+        "title": "Jamaican Rice and Peas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53348",
+        "title": "Jamaican Spice Bun Recipe",
+        "isVegetarian": false
+    },
+    {
+        "id": "53364",
+        "title": "Jamaican Steamed Cabbage",
+        "isVegetarian": true
+    },
+    {
+        "id": "53344",
+        "title": "Jamaican Sweet Potato Pudding",
+        "isVegetarian": true
+    },
+    {
+        "id": "53145",
+        "title": "Jamon & wild garlic croquetas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53033",
+        "title": "Japanese gohan rice",
+        "isVegetarian": true
+    },
+    {
+        "id": "53034",
+        "title": "Japanese Katsudon",
+        "isVegetarian": false
+    },
+    {
+        "id": "52937",
+        "title": "Jerk chicken with rice & peas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53335",
+        "title": "Jiggs Dinner",
+        "isVegetarian": false
+    },
+    {
+        "id": "53220",
+        "title": "kabse",
+        "isVegetarian": false
+    },
+    {
+        "id": "52971",
+        "title": "Kafteji",
+        "isVegetarian": false
+    },
+    {
+        "id": "52769",
+        "title": "Kapsalon",
+        "isVegetarian": false
+    },
+    {
+        "id": "53125",
+        "title": "Karbonader (Lean Beef Patties) with Caramelized Onions",
+        "isVegetarian": false
+    },
+    {
+        "id": "52820",
+        "title": "Katsu Chicken curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "52887",
+        "title": "Kedgeree",
+        "isVegetarian": false
+    },
+    {
+        "id": "52974",
+        "title": "Keleya Zaara",
+        "isVegetarian": false
+    },
+    {
+        "id": "52813",
+        "title": "Kentucky Fried Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53112",
+        "title": "Kenyan Beef Curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "52859",
+        "title": "Key Lime Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53286",
+        "title": "Khobz el Dar (Algerian Semolina Bread)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52868",
+        "title": "Kidney Bean Curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53216",
+        "title": "Knafeh",
+        "isVegetarian": true
+    },
+    {
+        "id": "53257",
+        "title": "kofta burgers",
+        "isVegetarian": false
+    },
+    {
+        "id": "53027",
+        "title": "Koshari",
+        "isVegetarian": true
+    },
+    {
+        "id": "53015",
+        "title": "Krispy Kreme Donut",
+        "isVegetarian": false
+    },
+    {
+        "id": "52978",
+        "title": "Kumpir",
+        "isVegetarian": true
+    },
+    {
+        "id": "52945",
+        "title": "Kung Pao Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "52946",
+        "title": "Kung Po Prawns",
+        "isVegetarian": false
+    },
+    {
+        "id": "53128",
+        "title": "Kv\u00e6fjord Cake \u201cVerdens Beste\u201d (World\u2019s Best Cake)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52821",
+        "title": "Laksa King Prawn Noodles",
+        "isVegetarian": false
+    },
+    {
+        "id": "53277",
+        "title": "Lamb & apricot meatballs",
+        "isVegetarian": false
+    },
+    {
+        "id": "53009",
+        "title": "Lamb and Lemon Souvlaki",
+        "isVegetarian": false
+    },
+    {
+        "id": "52877",
+        "title": "Lamb and Potato pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52805",
+        "title": "Lamb Biryani",
+        "isVegetarian": false
+    },
+    {
+        "id": "53083",
+        "title": "Lamb Pilaf (Plov)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52808",
+        "title": "Lamb Rogan josh",
+        "isVegetarian": false
+    },
+    {
+        "id": "52843",
+        "title": "Lamb Tagine",
+        "isVegetarian": false
+    },
+    {
+        "id": "52782",
+        "title": "Lamb tomato and sweet spices",
+        "isVegetarian": false
+    },
+    {
+        "id": "53010",
+        "title": "Lamb Tzatziki Burgers",
+        "isVegetarian": false
+    },
+    {
+        "id": "53104",
+        "title": "Lamingtons",
+        "isVegetarian": false
+    },
+    {
+        "id": "52884",
+        "title": "Lancashire hotpot",
+        "isVegetarian": false
+    },
+    {
+        "id": "52987",
+        "title": "Lasagna Sandwiches",
+        "isVegetarian": false
+    },
+    {
+        "id": "52844",
+        "title": "Lasagne",
+        "isVegetarian": false
+    },
+    {
+        "id": "52973",
+        "title": "Leblebi Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53211",
+        "title": "Lemongrass beef stew with noodles",
+        "isVegetarian": false
+    },
+    {
+        "id": "53146",
+        "title": "Locro",
+        "isVegetarian": false
+    },
+    {
+        "id": "52947",
+        "title": "Ma Po Tofu",
+        "isVegetarian": false
+    },
+    {
+        "id": "52900",
+        "title": "Madeira Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53221",
+        "title": "Mamoul (Eid biscuits)",
+        "isVegetarian": true
+    },
+    {
+        "id": "52827",
+        "title": "Massaman Beef curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53140",
+        "title": "Matambre a la Pizza",
+        "isVegetarian": false
+    },
+    {
+        "id": "52865",
+        "title": "Matar Paneer",
+        "isVegetarian": true
+    },
+    {
+        "id": "53132",
+        "title": "Mazariner \u2013 Scandinavian Almond Tartlets",
+        "isVegetarian": false
+    },
+    {
+        "id": "52968",
+        "title": "Mbuzi Choma (Roasted Goat)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52880",
+        "title": "McSinghs Scotch pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52777",
+        "title": "Mediterranean Pasta Salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53048",
+        "title": "Mee goreng mamak",
+        "isVegetarian": false
+    },
+    {
+        "id": "53086",
+        "title": "Migas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53135",
+        "title": "Milanesa",
+        "isVegetarian": false
+    },
+    {
+        "id": "52991",
+        "title": "Mince Pies",
+        "isVegetarian": false
+    },
+    {
+        "id": "52876",
+        "title": "Minced Beef Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53304",
+        "title": "Mini bundt cakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53109",
+        "title": "Mini chilli beef pies",
+        "isVegetarian": false
+    },
+    {
+        "id": "53336",
+        "title": "Molasses Baked Beans",
+        "isVegetarian": false
+    },
+    {
+        "id": "52927",
+        "title": "Montreal Smoked Meat",
+        "isVegetarian": false
+    },
+    {
+        "id": "53047",
+        "title": "Moroccan Carrot Soup",
+        "isVegetarian": true
+    },
+    {
+        "id": "53006",
+        "title": "Moussaka",
+        "isVegetarian": false
+    },
+    {
+        "id": "53029",
+        "title": "Mulukhiyah",
+        "isVegetarian": false
+    },
+    {
+        "id": "52864",
+        "title": "Mushroom & Chestnut Rotolo",
+        "isVegetarian": true
+    },
+    {
+        "id": "53059",
+        "title": "Mushroom soup with buckwheat",
+        "isVegetarian": false
+    },
+    {
+        "id": "53038",
+        "title": "Mustard champ",
+        "isVegetarian": true
+    },
+    {
+        "id": "53223",
+        "title": "Mutabbaq",
+        "isVegetarian": false
+    },
+    {
+        "id": "52924",
+        "title": "Nanaimo Bars",
+        "isVegetarian": false
+    },
+    {
+        "id": "53377",
+        "title": "Napa Cabbage with Dried Shrimp",
+        "isVegetarian": false
+    },
+    {
+        "id": "53051",
+        "title": "Nasi lemak",
+        "isVegetarian": false
+    },
+    {
+        "id": "52858",
+        "title": "New York cheesecake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53347",
+        "title": "No-Churn Rum Raisin Ice Cream",
+        "isVegetarian": true
+    },
+    {
+        "id": "53245",
+        "title": "Noodle bowl salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53117",
+        "title": "Nordic sm\u00f8rrebr\u00f8d with asparagus and horseradish cream",
+        "isVegetarian": true
+    },
+    {
+        "id": "53129",
+        "title": "Norwegian Krumkake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53121",
+        "title": "Norwegian Potato Lefse",
+        "isVegetarian": true
+    },
+    {
+        "id": "52851",
+        "title": "Nutty Chicken Curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53331",
+        "title": "Oatmeal pancakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52810",
+        "title": "Osso Buco alla Milanese",
+        "isVegetarian": false
+    },
+    {
+        "id": "52943",
+        "title": "Oxtail with broad beans",
+        "isVegetarian": true
+    },
+    {
+        "id": "52774",
+        "title": "Pad See Ew",
+        "isVegetarian": false
+    },
+    {
+        "id": "53191",
+        "title": "Pad Thai",
+        "isVegetarian": false
+    },
+    {
+        "id": "53150",
+        "title": "Padron peppers",
+        "isVegetarian": true
+    },
+    {
+        "id": "53151",
+        "title": "Paella",
+        "isVegetarian": false
+    },
+    {
+        "id": "53152",
+        "title": "Pan-fried hake, white bean & chorizo broth",
+        "isVegetarian": false
+    },
+    {
+        "id": "53192",
+        "title": "Panang chicken curry (kaeng panang gai)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52854",
+        "title": "Pancakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52902",
+        "title": "Parkin Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53333",
+        "title": "Passion fruit mousse",
+        "isVegetarian": false
+    },
+    {
+        "id": "53017",
+        "title": "Paszteciki (Polish Pasties)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53172",
+        "title": "Patatas bravas",
+        "isVegetarian": true
+    },
+    {
+        "id": "52930",
+        "title": "Pate Chinois",
+        "isVegetarian": false
+    },
+    {
+        "id": "52862",
+        "title": "Peach & Blueberry Grunt",
+        "isVegetarian": true
+    },
+    {
+        "id": "52861",
+        "title": "Peanut Butter Cheesecake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52958",
+        "title": "Peanut Butter Cookies",
+        "isVegetarian": false
+    },
+    {
+        "id": "52916",
+        "title": "Pear Tarte Tatin",
+        "isVegetarian": true
+    },
+    {
+        "id": "53292",
+        "title": "Piernik (Polish gingerbread)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53019",
+        "title": "Pierogi (Polish Dumplings)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52837",
+        "title": "Pilchard puttanesca",
+        "isVegetarian": true
+    },
+    {
+        "id": "53039",
+        "title": "Piri-piri chicken and slaw",
+        "isVegetarian": false
+    },
+    {
+        "id": "53293",
+        "title": "Pistachio cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53224",
+        "title": "Pistachio Kunafa Chocolate Cake and Cupcakes",
+        "isVegetarian": true
+    },
+    {
+        "id": "53160",
+        "title": "Pisto con huevos",
+        "isVegetarian": false
+    },
+    {
+        "id": "53014",
+        "title": "Pizza Express Margherita",
+        "isVegetarian": true
+    },
+    {
+        "id": "53295",
+        "title": "Polish chocolate & walnut cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53298",
+        "title": "Polish doughnuts (P\u0105czki)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53299",
+        "title": "Polish patties (kotlety)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53162",
+        "title": "Pollo en pepitoria",
+        "isVegetarian": false
+    },
+    {
+        "id": "53022",
+        "title": "Polskie Nalesniki (Polish Pancakes)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53297",
+        "title": "Pomegranate salad",
+        "isVegetarian": true
+    },
+    {
+        "id": "53301",
+        "title": "Pork & sauerkraut goulash",
+        "isVegetarian": false
+    },
+    {
+        "id": "52847",
+        "title": "Pork Cassoulet",
+        "isVegetarian": false
+    },
+    {
+        "id": "53306",
+        "title": "Pork rib bortsch",
+        "isVegetarian": false
+    },
+    {
+        "id": "53044",
+        "title": "Portuguese barbecued pork (Febras assadas)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53046",
+        "title": "Portuguese custard tarts",
+        "isVegetarian": false
+    },
+    {
+        "id": "53045",
+        "title": "Portuguese fish stew (Caldeirada de peixe)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53042",
+        "title": "Portuguese prego with green piri-piri",
+        "isVegetarian": false
+    },
+    {
+        "id": "53323",
+        "title": "Postre Chaj\u00e1",
+        "isVegetarian": false
+    },
+    {
+        "id": "52780",
+        "title": "Potato Gratin with Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53081",
+        "title": "Potato Salad (Olivier Salad)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52932",
+        "title": "Pouding chomeur",
+        "isVegetarian": false
+    },
+    {
+        "id": "53280",
+        "title": "Poulet Roti a l'Algerienne (Algerian Roast Chicken)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52804",
+        "title": "Poutine",
+        "isVegetarian": false
+    },
+    {
+        "id": "52922",
+        "title": "Prawn & Fennel Bisque",
+        "isVegetarian": false
+    },
+    {
+        "id": "53244",
+        "title": "Prawn & noodle salad with crispy shallots",
+        "isVegetarian": false
+    },
+    {
+        "id": "53200",
+        "title": "Prawn stir-fry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53174",
+        "title": "Prawns with Romesco sauce",
+        "isVegetarian": false
+    },
+    {
+        "id": "52921",
+        "title": "Proven\u00e7al Omelette Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52857",
+        "title": "Pumpkin Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53230",
+        "title": "Purple sprouting broccoli tempura with nuoc cham",
+        "isVegetarian": false
+    },
+    {
+        "id": "53173",
+        "title": "Quick gazpacho",
+        "isVegetarian": true
+    },
+    {
+        "id": "53108",
+        "title": "Quick salt & pepper squid",
+        "isVegetarian": false
+    },
+    {
+        "id": "53383",
+        "title": "Ramen Noodles with Boiled Egg",
+        "isVegetarian": false
+    },
+    {
+        "id": "52933",
+        "title": "Rappie Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53303",
+        "title": "Raspberry mousse",
+        "isVegetarian": false
+    },
+    {
+        "id": "53124",
+        "title": "Raspeballer (Norwegian Potato Dumplings)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52908",
+        "title": "Ratatouille",
+        "isVegetarian": true
+    },
+    {
+        "id": "52809",
+        "title": "Recheado Masala Fish",
+        "isVegetarian": false
+    },
+    {
+        "id": "53204",
+        "title": "Red curry chicken kebabs",
+        "isVegetarian": false
+    },
+    {
+        "id": "53115",
+        "title": "Red onion pickle",
+        "isVegetarian": true
+    },
+    {
+        "id": "52941",
+        "title": "Red Peas Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "52811",
+        "title": "Ribollita",
+        "isVegetarian": true
+    },
+    {
+        "id": "53227",
+        "title": "Rice paper dumplings",
+        "isVegetarian": false
+    },
+    {
+        "id": "52783",
+        "title": "Rigatoni with fennel sausage sauce",
+        "isVegetarian": false
+    },
+    {
+        "id": "53273",
+        "title": "Roast aubergine with goat's cheese & toasted flatbread",
+        "isVegetarian": true
+    },
+    {
+        "id": "52942",
+        "title": "Roast fennel and aubergine paella",
+        "isVegetarian": false
+    },
+    {
+        "id": "53268",
+        "title": "Roasted chicken with creamy walnut sauce",
+        "isVegetarian": false
+    },
+    {
+        "id": "52816",
+        "title": "Roasted Eggplant With Tahini, Pine Nuts, and Lentils",
+        "isVegetarian": true
+    },
+    {
+        "id": "52901",
+        "title": "Rock Cakes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52786",
+        "title": "Rocky Road Fudge",
+        "isVegetarian": true
+    },
+    {
+        "id": "53024",
+        "title": "Rogaliki (Polish Croissant Cookies)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53118",
+        "title": "R\u00f8mmegr\u00f8t \u2013 Norwegian Sour Cream Porridge",
+        "isVegetarian": true
+    },
+    {
+        "id": "53315",
+        "title": "Rosemary braised red cabbage with kabanos",
+        "isVegetarian": false
+    },
+    {
+        "id": "53020",
+        "title": "Rosol (Polish Chicken Soup)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53052",
+        "title": "Roti john",
+        "isVegetarian": false
+    },
+    {
+        "id": "53308",
+        "title": "Rye bread",
+        "isVegetarian": true
+    },
+    {
+        "id": "52960",
+        "title": "Salmon Avocado Salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "52962",
+        "title": "Salmon Eggs Eggs Benedict",
+        "isVegetarian": false
+    },
+    {
+        "id": "53234",
+        "title": "Salmon noodle soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53248",
+        "title": "Salmon noodle wraps",
+        "isVegetarian": false
+    },
+    {
+        "id": "52823",
+        "title": "Salmon Prawn Risotto",
+        "isVegetarian": false
+    },
+    {
+        "id": "53233",
+        "title": "Salt & pepper squid",
+        "isVegetarian": false
+    },
+    {
+        "id": "53171",
+        "title": "Salt cod tortilla",
+        "isVegetarian": false
+    },
+    {
+        "id": "52833",
+        "title": "Salted Caramel Cheescake",
+        "isVegetarian": true
+    },
+    {
+        "id": "52936",
+        "title": "Saltfish and Ackee",
+        "isVegetarian": false
+    },
+    {
+        "id": "53337",
+        "title": "Saskatoon Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53296",
+        "title": "Sauerkraut pierogi",
+        "isVegetarian": false
+    },
+    {
+        "id": "53314",
+        "title": "Sauerkraut pierogii",
+        "isVegetarian": false
+    },
+    {
+        "id": "53247",
+        "title": "Sea bass with sizzled ginger, chilli & spring onions",
+        "isVegetarian": false
+    },
+    {
+        "id": "52836",
+        "title": "Seafood fideu\u00e0",
+        "isVegetarian": false
+    },
+    {
+        "id": "53167",
+        "title": "Seafood rice",
+        "isVegetarian": false
+    },
+    {
+        "id": "53054",
+        "title": "Seri muka kuih",
+        "isVegetarian": false
+    },
+    {
+        "id": "53378",
+        "title": "Sesame Cucumber Salad",
+        "isVegetarian": true
+    },
+    {
+        "id": "53215",
+        "title": "Shakshouka",
+        "isVegetarian": false
+    },
+    {
+        "id": "52963",
+        "title": "Shakshuka",
+        "isVegetarian": false
+    },
+    {
+        "id": "53219",
+        "title": "Shakshuka Feta Cheese",
+        "isVegetarian": false
+    },
+    {
+        "id": "53028",
+        "title": "Shawarma",
+        "isVegetarian": false
+    },
+    {
+        "id": "53226",
+        "title": "Shawarma bread",
+        "isVegetarian": true
+    },
+    {
+        "id": "53217",
+        "title": "Shawarma chuck roast wrap",
+        "isVegetarian": false
+    },
+    {
+        "id": "52953",
+        "title": "Shrimp Chow Fun",
+        "isVegetarian": false
+    },
+    {
+        "id": "53375",
+        "title": "Shrimp With Snow Peas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53374",
+        "title": "Sichuan Eggplant",
+        "isVegetarian": false
+    },
+    {
+        "id": "53371",
+        "title": "Sichuan Style Stir-Fried Chinese Long Beans",
+        "isVegetarian": true
+    },
+    {
+        "id": "53369",
+        "title": "Silken Tofu with Sesame Soy Sauce",
+        "isVegetarian": true
+    },
+    {
+        "id": "53368",
+        "title": "Singapore Noodles with Shrimp",
+        "isVegetarian": false
+    },
+    {
+        "id": "52994",
+        "title": "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+        "isVegetarian": false
+    },
+    {
+        "id": "53023",
+        "title": "Sledz w Oleju (Polish Herrings)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53260",
+        "title": "Slow-roast lamb with cinnamon, fennel & citrus",
+        "isVegetarian": false
+    },
+    {
+        "id": "53302",
+        "title": "Slow-roasted ham with lemon, garlic & sage",
+        "isVegetarian": false
+    },
+    {
+        "id": "53259",
+        "title": "Smoked aubergine pur\u00e9e",
+        "isVegetarian": true
+    },
+    {
+        "id": "52964",
+        "title": "Smoked Haddock Kedgeree",
+        "isVegetarian": false
+    },
+    {
+        "id": "53264",
+        "title": "Smoky chicken skewers",
+        "isVegetarian": false
+    },
+    {
+        "id": "52784",
+        "title": "Smoky Lentil Chili with Squash",
+        "isVegetarian": true
+    },
+    {
+        "id": "52981",
+        "title": "Snert (Dutch Split Pea Soup)",
+        "isVegetarian": false
+    },
+    {
+        "id": "52992",
+        "title": "Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots",
+        "isVegetarian": false
+    },
+    {
+        "id": "52982",
+        "title": "Spaghetti alla Carbonara",
+        "isVegetarian": false
+    },
+    {
+        "id": "52770",
+        "title": "Spaghetti Bolognese",
+        "isVegetarian": false
+    },
+    {
+        "id": "53177",
+        "title": "Spaghetti with Spanish flavours",
+        "isVegetarian": false
+    },
+    {
+        "id": "53181",
+        "title": "Spanish beans with chicken & chorizo",
+        "isVegetarian": false
+    },
+    {
+        "id": "53164",
+        "title": "Spanish Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53155",
+        "title": "Spanish chicken pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53163",
+        "title": "Spanish fig & almond balls",
+        "isVegetarian": true
+    },
+    {
+        "id": "53183",
+        "title": "Spanish meatballs with clams, chorizo & squid",
+        "isVegetarian": false
+    },
+    {
+        "id": "53184",
+        "title": "Spanish rice & prawn one-pot",
+        "isVegetarian": false
+    },
+    {
+        "id": "53182",
+        "title": "Spanish seafood rice",
+        "isVegetarian": false
+    },
+    {
+        "id": "53176",
+        "title": "Spanish tomato bread with jam\u00f3n Serrano",
+        "isVegetarian": false
+    },
+    {
+        "id": "52872",
+        "title": "Spanish Tortilla",
+        "isVegetarian": false
+    },
+    {
+        "id": "53175",
+        "title": "Spanish-style slow-cooked lamb shoulder & beans",
+        "isVegetarian": false
+    },
+    {
+        "id": "53105",
+        "title": "Spiced smoky barbecued chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53142",
+        "title": "Spiced tortilla",
+        "isVegetarian": false
+    },
+    {
+        "id": "52771",
+        "title": "Spicy Arrabiata Penne",
+        "isVegetarian": true
+    },
+    {
+        "id": "52797",
+        "title": "Spicy North African Potato Salad",
+        "isVegetarian": true
+    },
+    {
+        "id": "53209",
+        "title": "Spicy Thai prawn noodles",
+        "isVegetarian": false
+    },
+    {
+        "id": "52849",
+        "title": "Spinach & Ricotta Cannelloni",
+        "isVegetarian": true
+    },
+    {
+        "id": "52925",
+        "title": "Split Pea Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "52886",
+        "title": "Spotted Dick",
+        "isVegetarian": false
+    },
+    {
+        "id": "53040",
+        "title": "Spring onion and prawn empanadas",
+        "isVegetarian": false
+    },
+    {
+        "id": "52866",
+        "title": "Squash linguine",
+        "isVegetarian": true
+    },
+    {
+        "id": "53102",
+        "title": "Squid, chickpea & chorizo salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "52980",
+        "title": "Stamppot",
+        "isVegetarian": false
+    },
+    {
+        "id": "53229",
+        "title": "Steak & Vietnamese noodle salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "52881",
+        "title": "Steak and Kidney Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52935",
+        "title": "Steak Diane",
+        "isVegetarian": false
+    },
+    {
+        "id": "53110",
+        "title": "Sticky Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "52883",
+        "title": "Sticky Toffee Pudding",
+        "isVegetarian": false
+    },
+    {
+        "id": "52793",
+        "title": "Sticky Toffee Pudding Ultimate",
+        "isVegetarian": false
+    },
+    {
+        "id": "53201",
+        "title": "Stir-fried chicken with chillies & basil",
+        "isVegetarian": false
+    },
+    {
+        "id": "52817",
+        "title": "Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt",
+        "isVegetarian": true
+    },
+    {
+        "id": "53082",
+        "title": "Strawberries Romanoff",
+        "isVegetarian": true
+    },
+    {
+        "id": "53005",
+        "title": "Strawberry Rhubarb Pie",
+        "isVegetarian": true
+    },
+    {
+        "id": "53067",
+        "title": "Stuffed Bell Peppers with Quinoa and Black Beans",
+        "isVegetarian": true
+    },
+    {
+        "id": "53008",
+        "title": "Stuffed Lamb Tomatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "52931",
+        "title": "Sugar Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "53130",
+        "title": "Suksessterte (Norwegian almond \u201csuccess cake\u201d)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53113",
+        "title": "Sukuma Wiki",
+        "isVegetarian": true
+    },
+    {
+        "id": "53187",
+        "title": "\u0160\u00fa\u013alance s Makom",
+        "isVegetarian": true
+    },
+    {
+        "id": "52911",
+        "title": "Summer Pistou",
+        "isVegetarian": false
+    },
+    {
+        "id": "52889",
+        "title": "Summer Pudding",
+        "isVegetarian": true
+    },
+    {
+        "id": "53065",
+        "title": "Sushi",
+        "isVegetarian": true
+    },
+    {
+        "id": "53376",
+        "title": "Sweet and Sour Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "52949",
+        "title": "Sweet and Sour Pork",
+        "isVegetarian": false
+    },
+    {
+        "id": "53275",
+        "title": "Sweet potato salad",
+        "isVegetarian": true
+    },
+    {
+        "id": "53089",
+        "title": "Syrian Bread",
+        "isVegetarian": true
+    },
+    {
+        "id": "53095",
+        "title": "Syrian Rice with Meat",
+        "isVegetarian": false
+    },
+    {
+        "id": "53093",
+        "title": "Syrian Spaghetti",
+        "isVegetarian": true
+    },
+    {
+        "id": "52950",
+        "title": "Szechuan Beef",
+        "isVegetarian": false
+    },
+    {
+        "id": "52869",
+        "title": "Tahini Lentils",
+        "isVegetarian": true
+    },
+    {
+        "id": "53287",
+        "title": "Tajine de Poulet aux Carottes et Patates Douces (Chicken and Sweet Potato Tagine)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53119",
+        "title": "Tall Skoleboller",
+        "isVegetarian": false
+    },
+    {
+        "id": "53026",
+        "title": "Tamiya",
+        "isVegetarian": true
+    },
+    {
+        "id": "52806",
+        "title": "Tandoori chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53312",
+        "title": "Tangy cabbage slaw",
+        "isVegetarian": true
+    },
+    {
+        "id": "53246",
+        "title": "Tangy carrot, cabbage & onion salad",
+        "isVegetarian": true
+    },
+    {
+        "id": "52909",
+        "title": "Tarte Tatin",
+        "isVegetarian": true
+    },
+    {
+        "id": "52772",
+        "title": "Teriyaki Chicken Casserole",
+        "isVegetarian": false
+    },
+    {
+        "id": "53199",
+        "title": "Thai beef stir-fry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53206",
+        "title": "Thai chicken cakes with sweet chilli sauce",
+        "isVegetarian": false
+    },
+    {
+        "id": "53208",
+        "title": "Thai coconut & veg broth",
+        "isVegetarian": false
+    },
+    {
+        "id": "53195",
+        "title": "Thai curry noodle soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53212",
+        "title": "Thai drumsticks",
+        "isVegetarian": false
+    },
+    {
+        "id": "53198",
+        "title": "Thai fried rice with prawns & peas",
+        "isVegetarian": false
+    },
+    {
+        "id": "53214",
+        "title": "Thai green chicken soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "52814",
+        "title": "Thai Green Curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53197",
+        "title": "Thai pork & peanut curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53205",
+        "title": "Thai prawn curry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53210",
+        "title": "Thai pumpkin soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "53203",
+        "title": "Thai rice noodle salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53213",
+        "title": "Thai-style fish broth with greens",
+        "isVegetarian": false
+    },
+    {
+        "id": "53202",
+        "title": "Thai-style steamed fish",
+        "isVegetarian": false
+    },
+    {
+        "id": "52882",
+        "title": "Three Fish Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52912",
+        "title": "Three-cheese souffles",
+        "isVegetarian": false
+    },
+    {
+        "id": "52929",
+        "title": "Timbits",
+        "isVegetarian": false
+    },
+    {
+        "id": "52822",
+        "title": "Toad In The Hole",
+        "isVegetarian": false
+    },
+    {
+        "id": "53240",
+        "title": "Tofu, greens & cashew stir-fry",
+        "isVegetarian": true
+    },
+    {
+        "id": "53207",
+        "title": "Tom kha gai",
+        "isVegetarian": false
+    },
+    {
+        "id": "53196",
+        "title": "Tom yum (hot & sour) soup with prawns",
+        "isVegetarian": false
+    },
+    {
+        "id": "53194",
+        "title": "Tom yum soup with prawns",
+        "isVegetarian": false
+    },
+    {
+        "id": "53032",
+        "title": "Tonkatsu pork",
+        "isVegetarian": false
+    },
+    {
+        "id": "53165",
+        "title": "Torrijas with sherry",
+        "isVegetarian": false
+    },
+    {
+        "id": "53318",
+        "title": "Torta de fiambre",
+        "isVegetarian": false
+    },
+    {
+        "id": "53075",
+        "title": "Tortang Talong",
+        "isVegetarian": false
+    },
+    {
+        "id": "52926",
+        "title": "Tourtiere",
+        "isVegetarian": false
+    },
+    {
+        "id": "53057",
+        "title": "Traditional Croatian Goulash",
+        "isVegetarian": false
+    },
+    {
+        "id": "52892",
+        "title": "Treacle Tart",
+        "isVegetarian": false
+    },
+    {
+        "id": "52975",
+        "title": "Tuna and Egg Briks",
+        "isVegetarian": false
+    },
+    {
+        "id": "52852",
+        "title": "Tuna Nicoise",
+        "isVegetarian": false
+    },
+    {
+        "id": "52972",
+        "title": "Tunisian Lamb Soup",
+        "isVegetarian": false
+    },
+    {
+        "id": "52970",
+        "title": "Tunisian Orange Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53249",
+        "title": "Turkey B\u00e1nh m\u00ec",
+        "isVegetarian": false
+    },
+    {
+        "id": "52845",
+        "title": "Turkey Meatloaf",
+        "isVegetarian": false
+    },
+    {
+        "id": "53251",
+        "title": "Turkish lahmacun",
+        "isVegetarian": false
+    },
+    {
+        "id": "53263",
+        "title": "Turkish lamb pilau",
+        "isVegetarian": false
+    },
+    {
+        "id": "53252",
+        "title": "Turkish rice (vermicelli rice)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53270",
+        "title": "Turkish-style lamb",
+        "isVegetarian": false
+    },
+    {
+        "id": "53114",
+        "title": "Ugali \u2013 Kenyan cornmeal",
+        "isVegetarian": true
+    },
+    {
+        "id": "53321",
+        "title": "Vanilla alfajores",
+        "isVegetarian": false
+    },
+    {
+        "id": "53250",
+        "title": "Vegan banh mi",
+        "isVegetarian": true
+    },
+    {
+        "id": "52794",
+        "title": "Vegan Chocolate Cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "52775",
+        "title": "Vegan Lasagna",
+        "isVegetarian": true
+    },
+    {
+        "id": "53000",
+        "title": "Vegetable Shepherds Pie",
+        "isVegetarian": false
+    },
+    {
+        "id": "52863",
+        "title": "Vegetarian Casserole",
+        "isVegetarian": false
+    },
+    {
+        "id": "52867",
+        "title": "Vegetarian Chilli",
+        "isVegetarian": false
+    },
+    {
+        "id": "53222",
+        "title": "Vegetarian Shakshuka",
+        "isVegetarian": false
+    },
+    {
+        "id": "52838",
+        "title": "Venetian Duck Ragu",
+        "isVegetarian": false
+    },
+    {
+        "id": "53325",
+        "title": "Venezuelan Arepas",
+        "isVegetarian": true
+    },
+    {
+        "id": "53327",
+        "title": "Venezuelan Coconut Chicken",
+        "isVegetarian": false
+    },
+    {
+        "id": "53326",
+        "title": "Venezuelan Sancocho",
+        "isVegetarian": false
+    },
+    {
+        "id": "53328",
+        "title": "Venezuelan Shredded Beef",
+        "isVegetarian": false
+    },
+    {
+        "id": "53332",
+        "title": "Venezuelan turnovers",
+        "isVegetarian": false
+    },
+    {
+        "id": "53228",
+        "title": "Vietnamese caramel trout",
+        "isVegetarian": false
+    },
+    {
+        "id": "53232",
+        "title": "Vietnamese chicken salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "52828",
+        "title": "Vietnamese Grilled Pork (bun-thit-nuong)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53231",
+        "title": "Vietnamese lamb shanks with sweet potatoes",
+        "isVegetarian": false
+    },
+    {
+        "id": "53237",
+        "title": "Vietnamese pork salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "53243",
+        "title": "Vietnamese prawn spiralized rolls",
+        "isVegetarian": false
+    },
+    {
+        "id": "53241",
+        "title": "Vietnamese veg parcels",
+        "isVegetarian": false
+    },
+    {
+        "id": "53235",
+        "title": "Vietnamese-style caramel pork",
+        "isVegetarian": false
+    },
+    {
+        "id": "53236",
+        "title": "Vietnamese-style veggie hotpot",
+        "isVegetarian": false
+    },
+    {
+        "id": "53062",
+        "title": "Walnut Roll Gu\u017evara",
+        "isVegetarian": false
+    },
+    {
+        "id": "53271",
+        "title": "Walnut, date & honey cake",
+        "isVegetarian": false
+    },
+    {
+        "id": "53106",
+        "title": "Warm roast asparagus salad",
+        "isVegetarian": false
+    },
+    {
+        "id": "52917",
+        "title": "White chocolate creme brulee",
+        "isVegetarian": false
+    },
+    {
+        "id": "52948",
+        "title": "Wontons",
+        "isVegetarian": false
+    },
+    {
+        "id": "52871",
+        "title": "Yaki Udon",
+        "isVegetarian": false
+    },
+    {
+        "id": "53225",
+        "title": "Yemeni Lahsa (Elite Shakshuka)",
+        "isVegetarian": false
+    },
+    {
+        "id": "53097",
+        "title": "Yorkshire Puddings",
+        "isVegetarian": false
+    },
+    {
+        "id": "53294",
+        "title": "Zapiekanki",
+        "isVegetarian": false
+    },
+    {
+        "id": "53189",
+        "title": "Zemiakov\u00e9 Placky",
+        "isVegetarian": false
+    }
+]

@@ -1,128 +1,197 @@
-.search-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(253, 251, 247, 0.95);
-    backdrop-filter: blur(8px);
-    z-index: 1000;
+.search-page-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.search-sidebar {
+    background: white;
+    border: 2px solid #8F2F1A;
+    box-shadow: 4px 4px 0px rgba(143, 47, 26, 0.1);
+    padding: 2rem;
+    padding-top: 1.5rem;
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-top: 15vh;
-    opacity: 0;
-    animation: fadeIn 0.3s forwards;
+    gap: 2rem;
+    overflow-y: auto;
 }
 
-.search-overlay.closing {
-    animation: fadeOut 0.3s forwards;
-}
-
-.search-close-btn {
-    position: absolute;
-    top: 2rem;
-    right: 3rem;
-    background: none;
-    border: none;
-    font-size: 3rem;
-    color: #5c3a21;
-    cursor: pointer;
-    transition: transform 0.2s ease, color 0.2s ease;
-    font-family: inherit;
-    line-height: 1;
-}
-
-.search-close-btn:hover {
-    transform: scale(1.1);
-    color: #d16b53;
-}
-
-.search-container {
-    width: 80%;
-    max-width: 800px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.search-input {
-    flex-grow: 1;
-    padding: 1.5rem 2rem;
-    font-size: 2.5rem;
-    border: none;
-    border-bottom: 3px solid #d16b53;
-    background: transparent;
-    color: #8F2F1A;
+.sidebar-title {
     font-family: "Dancing Script", cursive;
-    outline: none;
-    transition: border-color 0.3s ease;
+    font-size: 2.5rem;
+    color: #8F2F1A;
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
-.search-input::placeholder {
-    color: rgba(143, 47, 26, 0.4);
-}
-
-.search-input:focus {
-    border-bottom-color: #5c3a21;
-}
-
-.search-submit-btn {
-    background-color: #d16b53;
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
+.section-title {
     font-family: "Iosevka Charon Mono", monospace;
-    font-size: 1.25rem;
-    font-weight: bold;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-    white-space: nowrap;
-    box-shadow: 0 4px 6px rgba(209, 107, 83, 0.3);
+    font-size: 1.2rem;
+    color: #5c3a21;
+    margin-bottom: 1rem;
+    border-bottom: 2px dashed #e0d0c1;
+    padding-bottom: 0.5rem;
 }
 
-.search-submit-btn:hover {
-    background-color: #c05c45;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 10px rgba(209, 107, 83, 0.4);
-}
-
-.search-submit-btn:active {
-    transform: translateY(0);
-}
-
-.search-hint {
+.main-search-input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: #fdfbf7;
+    border: 2px solid #e0d0c1;
     font-family: "Iosevka Charon Mono", monospace;
     font-size: 1rem;
     color: #5c3a21;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.main-search-input:focus {
+    border-color: #8F2F1A;
+}
+
+.filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filter-chip {
+    background: #fdfbf7;
+    border: 1px solid #e0d0c1;
+    color: #5c3a21;
+    padding: 0.4rem 0.8rem;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-chip:hover {
+    border-color: #8F2F1A;
+}
+
+.filter-chip.active {
+    background: #8F2F1A;
+    color: white;
+    border-color: #8F2F1A;
+}
+
+.filter-dropdown-search {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.filter-search-input {
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    background-color: #fdfbf7;
+    border: 1px solid #e0d0c1;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 0.9rem;
+    color: #5c3a21;
+    outline: none;
+}
+
+.filter-scroll-list {
+    max-height: 200px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-right: 0.5rem;
+}
+
+.filter-scroll-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.filter-scroll-list::-webkit-scrollbar-thumb {
+    background: #e0d0c1;
+}
+
+.filter-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 0.9rem;
+    color: #5c3a21;
+    cursor: pointer;
+    padding: 0.2rem 0;
+}
+
+.filter-checkbox-label input {
+    accent-color: #8F2F1A;
+}
+
+.diet-toggle-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.diet-btn {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #8F2F1A;
+    background: transparent;
+    color: #8F2F1A;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+}
+
+.diet-btn.active {
+    background: #8F2F1A;
+    color: white;
+}
+
+.diet-btn:hover:not(.active) {
+    background: rgba(143, 47, 26, 0.1);
+}
+
+.empty-results {
+    grid-column: 1 / -1;
     text-align: center;
-    margin-top: 2rem;
-    opacity: 0.7;
+    padding: 4rem;
+    font-family: "Iosevka Charon Mono", monospace;
+    color: #5c3a21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.sidebar-reset-btn {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #8F2F1A;
+    border: 2px solid #8F2F1A;
+    padding: 0.8rem;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
 }
 
-@keyframes fadeOut {
-    from {
-        opacity: 1;
-        transform: translateY(0);
+.sidebar-reset-btn:hover {
+    background-color: #8F2F1A;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .search-page-layout {
+        grid-template-columns: 1fr;
     }
 
-    to {
-        opacity: 0;
-        transform: translateY(-20px);
+    .search-sidebar {
+        position: static;
+        max-height: none;
     }
 }
