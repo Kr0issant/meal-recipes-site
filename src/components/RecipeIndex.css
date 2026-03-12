@@ -1,0 +1,45 @@
+.alphabet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+}
+
+.alphabet-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e0d0c1;
+    background-color: transparent;
+    color: #5c3a21;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.alphabet-btn:hover {
+    background-color: #e0d0c1;
+    transform: translateY(-2px);
+}
+
+.alphabet-btn.active {
+    background-color: #d16b53;
+    border-color: #d16b53;
+    color: white;
+    transform: scale(1.1);
+}
+
+.no-recipes-msg {
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 1.2rem;
+    color: #8F2F1A;
+    text-align: center;
+    grid-column: 1 / -1;
+    margin-top: 2rem;
+}

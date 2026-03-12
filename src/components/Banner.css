@@ -1,0 +1,120 @@
+.banner-container {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto 2rem auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #fdfbf7;
+    border: 8px solid #ffffff;
+    outline: 2px solid #8F2F1A;
+    /* box-shadow: 8px 8px 0px rgba(143, 47, 26, 0.15); */
+}
+
+/* Skeleton Banner Styles */
+.skeleton-banner-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #f0ebe1 25%, #fdfbf7 50%, #f0ebe1 75%);
+    background-size: 200% 100%;
+    animation: banner-loading 1.5s infinite;
+}
+
+.skeleton-content {
+    background: transparent !important;
+}
+
+.skeleton-banner-title {
+    width: 60%;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.4) 75%);
+    background-size: 200% 100%;
+    animation: banner-loading 1.5s infinite;
+}
+
+@keyframes banner-loading {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+.banner-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.65);
+    transition: transform 6s ease;
+}
+
+.banner-slide.active .banner-img {
+    transform: scale(1.05);
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 2rem 2rem;
+    background: linear-gradient(to top, rgba(92, 58, 33, 0.95), transparent);
+    color: #fff;
+    z-index: 2;
+}
+
+.banner-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 3.5rem;
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.banner-indicators {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+    display: flex;
+    gap: 0.6rem;
+    z-index: 3;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.indicator:hover {
+    transform: scale(1.2);
+}
+
+.indicator.active {
+    background-color: #d16b53;
+    transform: scale(1.2);
+}

@@ -1,0 +1,408 @@
+.food-info-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fdfbf7;
+    background-image: radial-gradient(#e0d0c1 1px, transparent 1px);
+    background-size: 20px 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+.food-info-overlay.closing {
+    animation: slideDown 0.3s ease-in forwards;
+}
+
+.food-info-close {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    color: #5c3a21;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+    font-family: inherit;
+    line-height: 1;
+}
+
+.food-info-close:hover {
+    transform: scale(1.1);
+    color: #d16b53;
+}
+
+.food-info-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+
+.food-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+
+
+.food-info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: sticky;
+    top: 4rem;
+}
+
+.food-info-image {
+    width: 100%;
+    border: 8px solid #f2e9dc;
+    outline: 2px solid #8F2F1A;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.food-info-meta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    border-top: 2px dashed #e0d0c1;
+    border-bottom: 2px dashed #e0d0c1;
+}
+
+.food-info-category,
+.food-info-area {
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 1.1rem;
+    padding: 0.2rem 1rem;
+    font-weight: bold;
+}
+
+.tag-meat {
+    background-color: #fcece8;
+    color: #8F2F1A;
+    border: 1px solid #8F2F1A;
+}
+
+.tag-veg {
+    background-color: #eef4f1;
+    color: #2b533e;
+    border: 1px solid #2b533e;
+}
+
+.tag-seafood {
+    background-color: #eaf1f6;
+    color: #1e557a;
+    border: 1px solid #1e557a;
+}
+
+.tag-dessert {
+    background-color: #fdf3f1;
+    color: #9c4c5e;
+    border: 1px solid #9c4c5e;
+}
+
+.tag-pasta {
+    background-color: #fef9eb;
+    color: #9e6402;
+    border: 1px solid #9e6402;
+}
+
+.tag-breakfast {
+    background-color: #fff4ef;
+    color: #b3521d;
+    border: 1px solid #b3521d;
+}
+
+.tag-sides {
+    background-color: #f2fdfe;
+    color: #235c5e;
+    border: 1px solid #235c5e;
+}
+
+.tag-misc {
+    background-color: #f6e8ff;
+    color: #5a3c85;
+    border: 1px solid #5a3c85;
+}
+
+.tag-area {
+    background-color: #f5f0e6;
+    color: #5c3a21;
+    border: 1px solid #5c3a21;
+}
+
+.food-info-ingredients {
+    padding: 2rem;
+    background-color: #fffdf9;
+    border: 1px solid #ebdfd3;
+    /* border-radius: 12px; */
+    box-shadow: 4px 4px 0px rgba(143, 47, 26, 0.1);
+    /* slight warm shadow */
+}
+
+.food-info-ingredients h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+    color: #8F2F1A;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #d16b53;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.food-info-ingredients ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.food-info-ingredients li {
+    font-family: "Iosevka Charon Mono", monospace;
+    color: #5c3a21;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted #e0d0c1;
+}
+
+.food-info-ingredients li::before {
+    content: '•';
+    color: #d16b53;
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+    line-height: 1;
+}
+
+.ingredient-item {
+    position: relative;
+    cursor: help;
+    transition: color 0.2s, border-bottom-color 0.2s;
+    display: inline-block;
+    border-bottom: 1px dashed transparent;
+}
+
+.ingredient-item:hover {
+    color: #d16b53;
+    border-bottom-color: #d16b53;
+}
+
+.ingredient-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transform: translateY(10px);
+    width: 140px;
+    height: 140px;
+    background-color: #fdfbf7;
+    border: 2px solid #ebdfd3;
+    /* border-radius: 12px; */
+    box-shadow: 4px 4px 15px rgba(92, 58, 33, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* small triangle for popup */
+.ingredient-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #ebdfd3 transparent transparent transparent;
+}
+
+.ingredient-item:hover .ingredient-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-10px);
+}
+
+.ingredient-tooltip img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.food-info-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.food-info-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
+    color: #8F2F1A;
+    margin: 0;
+    line-height: 1.1;
+    border-bottom: 4px solid #8F2F1A;
+    padding-bottom: 1rem;
+}
+
+.food-info-instructions {
+    padding: 1rem 0;
+}
+
+.food-info-instructions h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    color: #8F2F1A;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.instructions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.instructions-list::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 24px;
+    border-left: 2px dashed #d16b53;
+    z-index: 0;
+}
+
+.instruction-step {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+.step-number {
+    color: #8F2F1A;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    background-color: #fdfbf7;
+    border: 2px dashed #d16b53;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.instruction-step p {
+    color: #4a3424;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #fffdf9;
+    border: 1px solid #ebdfd3;
+    /* border-radius: 12px; */
+    box-shadow: 4px 4px 0px rgba(143, 47, 26, 0.1);
+    /* slight warm shadow */
+    flex-grow: 1;
+}
+
+.food-info-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    color: #8F2F1A;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100%);
+    }
+}
+
+@media (max-width: 900px) {
+    .food-info-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: stretch;
+    }
+
+    .food-info-left {
+        position: static;
+        top: auto;
+    }
+
+    /* We need the title ONLY to be above the image */
+    .food-info-left,
+    .food-info-right {
+        display: contents;
+    }
+
+    .food-info-title {
+        order: -1;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .food-info-image {
+        max-width: 300px;
+        margin: 0 auto;
+        order: 1;
+        align-self: center;
+    }
+
+    .food-info-meta {
+        order: 2;
+        width: 100%;
+    }
+
+    .food-info-ingredients {
+        order: 3;
+    }
+
+    .food-info-instructions {
+        order: 4;
+    }
+}

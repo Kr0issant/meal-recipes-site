@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5c3a21;
+    background-color: #fdfbf7;
+    padding: 1rem 2rem;
+    border-bottom: 2px dashed #e0d0c1;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo>h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 3.5rem;
+    color: #8F2F1A;
+    margin: 0;
+    transition: color 0.2s ease;
+}
+
+.logo:hover>h1,
+.logo:hover>img {
+    color: #d16b53;
+    cursor: pointer;
+}
+
+.navbar>ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+    font-size: 1.25rem;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-weight: 500;
+}
+
+.navbar>ul>li {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.navbar>ul>li:hover {
+    color: #d16b53;
+}
+
+.navbar>ul img {
+    display: block;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.navbar>ul img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d16b53;
+    border-radius: 2px;
+}
+
+.nav-link-icon.active img {
+    border-bottom: 2px solid #d16b53;
+    padding-bottom: 2px;
+}
+
+.nav-fav-container {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fav-counter {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background-color: #8F2F1A;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    border: 2px solid #ffffff;
+    pointer-events: none;
+    font-family: "Iosevka Charon Mono", monospace;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
