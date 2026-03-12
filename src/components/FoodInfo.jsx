@@ -83,9 +83,15 @@ function FoodInfo({ id, onClose }) {
         }
 
         const instructionsArray = recipe.strInstructions
-            .split(/(?:\r?\n|\.\s+)/)
-            .map(step => step.replace(/^(step\s*\d+[:.\s]*|\d+[.)\s]*)/i, '').trim())
-            .filter(step => step.length > 0)
+            .replace(/\u25a2/g, '') // Remove weird square characters found in some recipes
+            .split(/[\r\n]+/) // Split by any combination of newlines
+            .flatMap(block => block.split(/\.\s+/)) // Additionally split by period followed by space
+            .map(step => step
+                .replace(/^(step\s*\d+[:.\s]*|\d+[.)\s]*)/i, '') // Remove "Step 1" or "1." prefixes
+                .replace(/^[-\s•*]+/, '') // Remove bullet point markers
+                .trim()
+            )
+            .filter(step => step.length > 2 && /[a-zA-Z0-9]/.test(step)) // Must have content and at least one alpha-numeric char
             .map(step => step.endsWith('.') ? step : step + '.');
 
         const getCategoryClass = (category) => {
