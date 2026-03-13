@@ -4,7 +4,7 @@ import FoodCard from "./FoodCard";
 import mealsData from '../data/meals.json';
 
 function Home() {
-    const [meals, setMeals] = useState(Array(10).fill(null));
+    const [meals, setMeals] = useState(Array(15).fill(null));
 
     const hasFetched = React.useRef(false);
 
@@ -13,7 +13,7 @@ function Home() {
         hasFetched.current = true;
 
         const fetchMeals = () => {
-            Array.from({ length: 10 }).forEach((_, index) => {
+            Array.from({ length: 15 }).forEach((_, index) => {
                 fetch('https://www.themealdb.com/api/json/v1/1/random.php')
                     .then(res => res.json())
                     .then(data => {
