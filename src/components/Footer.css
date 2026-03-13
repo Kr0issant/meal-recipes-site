@@ -1,0 +1,152 @@
+.footer {
+    background-color: #fdfbf7;
+    color: #5c3a21;
+    padding: 3rem 2rem 1rem;
+    border-top: 2px dashed #e0d0c1;
+    margin-top: 4rem;
+    font-family: "Iosevka Charon Mono", monospace;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.2rem;
+    color: #8F2F1A;
+    margin: 0;
+}
+
+.footer-motto {
+    font-style: italic;
+    font-size: 1rem;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+.footer-section h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    color: #8F2F1A;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-section.links {
+    align-items: center;
+}
+
+.footer-section.links h3,
+.footer-section.links ul {
+    text-align: left;
+    width: fit-content;
+}
+
+.footer-section.links ul {
+    padding-left: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #5c3a21;
+    transition: color 0.2s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #d16b53;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.social-icon {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #e0d0c1;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.social-icon:hover {
+    background-color: #d16b53;
+    color: white;
+}
+
+.github-link a {
+    text-decoration: none;
+    color: #8F2F1A;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px dotted #8F2F1A;
+    transition: all 0.2s ease;
+}
+
+.github-link a:hover {
+    color: #d16b53;
+    border-bottom-color: #d16b53;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid #e0d0c1;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .social-placeholders {
+        justify-content: center;
+    }
+}

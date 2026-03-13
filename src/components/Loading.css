@@ -1,0 +1,109 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.loading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.pot-animation {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.loading-pot {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: simmer 2s ease-in-out infinite;
+}
+
+.steam-container {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+}
+
+.steam {
+    width: 4px;
+    height: 15px;
+    background: rgba(143, 47, 26, 0.2);
+    border-radius: 4px;
+    animation: rise 1.5s infinite;
+}
+
+.steam-1 {
+    animation-delay: 0s;
+}
+
+.steam-2 {
+    animation-delay: 0.5s;
+}
+
+.steam-3 {
+    animation-delay: 1s;
+}
+
+.loading-message {
+    font-family: "Iosevka Charon Mono", monospace;
+    font-size: 1.1rem;
+    color: #5c3a21;
+    font-style: italic;
+    animation: pulse 2s infinite;
+}
+
+@keyframes simmer {
+
+    0%,
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    25% {
+        transform: scale(1.03) rotate(-1deg);
+    }
+
+    75% {
+        transform: scale(1.03) rotate(1deg);
+    }
+}
+
+@keyframes rise {
+    0% {
+        transform: translateY(0) scaleX(1);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(-8px) scaleX(1.3);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateY(-15px) scaleX(1.6);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

@@ -4,10 +4,23 @@ import '../App.css';
 
 function Favorites() {
     const [favorites, setFavorites] = useState([]);
+    const [displayFavorites, setDisplayFavorites] = useState([]);
 
     const loadFavorites = () => {
         const stored = JSON.parse(localStorage.getItem('favorites') || '[]');
         setFavorites(stored);
+
+        // Staggered display
+        setDisplayFavorites(Array(stored.length).fill(null));
+        stored.forEach((meal, index) => {
+            setTimeout(() => {
+                setDisplayFavorites(prev => {
+                    const newFavs = [...prev];
+                    newFavs[index] = meal;
+                    return newFavs;
+                });
+            }, index * 50);
+        });
     };
 
     useEffect(() => {
@@ -23,17 +36,27 @@ function Favorites() {
             <h1 className="home-title">My Favorite Recipes</h1>
             {favorites.length > 0 ? (
                 <div className="food-cards-grid">
-                    {favorites.map(meal => (
-                        <FoodCard
-                            key={meal.id}
-                            id={meal.id}
-                            title={meal.title}
-                            description={meal.description}
-                            image={meal.image}
-                            time={meal.time}
-                            rating={meal.rating}
-                            isVegetarian={meal.isVegetarian}
-                        />
+                    {displayFavorites.map((meal, index) => (
+                        meal ? (
+                            <FoodCard
+                                key={meal.id}
+                                id={meal.id}
+                                title={meal.title}
+                                description={meal.description}
+                                image={meal.image}
+                                time={meal.time}
+                                rating={meal.rating}
+                                isVegetarian={meal.isVegetarian}
+                            />
+                        ) : (
+                            <div key={`skeleton-${index}`} className="food-card skeleton-card">
+                                <div className="skeleton-img"></div>
+                                <div className="food-card-content">
+                                    <div className="skeleton-title"></div>
+                                    <div className="skeleton-desc"></div>
+                                </div>
+                            </div>
+                        )
                     ))}
                 </div>
             ) : (

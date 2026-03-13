@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import axios from 'axios';
 import './FoodInfo.css';
 import mealsData from '../data/meals.json';
+import Loading from './Loading';
 
 function FoodInfo({ id, onClose }) {
     const [recipe, setRecipe] = useState(null);
@@ -53,18 +54,12 @@ function FoodInfo({ id, onClose }) {
     }, [id]);
 
     const renderContent = () => {
-        if (loading) {
+        // Show loading if we are explicitly loading OR if we don't have a recipe yet.
+        // This prevents the "No recipe found" flash during transitions.
+        if (loading || !recipe) {
             return (
                 <div className="food-info-loading">
-                    <p>Fetching cozy details...</p>
-                </div>
-            );
-        }
-
-        if (!recipe) {
-            return (
-                <div className="food-info-loading">
-                    <p>No recipe found.</p>
+                    <Loading message="Fetching cozy details..." />
                 </div>
             );
         }

@@ -22,7 +22,11 @@ function Index() {
                 if (!isMounted) return;
 
                 if (data.meals) {
-                    const processedMeals = data.meals.map(meal => {
+                    // Initialize with nulls to show skeletons
+                    setMeals(Array(data.meals.length).fill(null));
+                    setLoading(false);
+
+                    data.meals.forEach((meal, index) => {
                         const mealDietary = mealsData.find(m => m.id === meal.idMeal);
                         const isVegetarian = mealDietary ? mealDietary.isVegetarian : false;
 
@@ -38,19 +42,30 @@ function Index() {
                         const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
                         const customDescription = `A ${randomAdjective} ${meal.strArea} ${meal.strCategory.toLowerCase()} dish.`;
 
-                        return { ...meal, customTime, customRating, customDescription, isVegetarian };
+                        const mealData = { ...meal, customTime, customRating, customDescription, isVegetarian };
+
+                        // Staggered pop-in effect
+                        setTimeout(() => {
+                            if (isMounted) {
+                                setMeals(prev => {
+                                    const newMeals = [...prev];
+                                    newMeals[index] = mealData;
+                                    return newMeals;
+                                });
+                            }
+                        }, index * 100);
                     });
-                    setMeals(processedMeals);
                 } else {
                     setMeals([]);
+                    setLoading(false);
                 }
             })
             .catch(error => {
                 console.error("Failed to fetch meals:", error);
-                if (isMounted) setMeals([]);
-            })
-            .finally(() => {
-                if (isMounted) setLoading(false);
+                if (isMounted) {
+                    setMeals([]);
+                    setLoading(false);
+                }
             });
 
         return () => {

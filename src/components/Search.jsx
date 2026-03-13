@@ -9,6 +9,10 @@ function Search() {
     const [searchQuery, setSearchQuery] = useState('');
     const [results, setResults] = useState([]);
     const [loading, setLoading] = useState(false);
+    const [visibleCount, setVisibleCount] = useState(30);
+    const [allResultIds, setAllResultIds] = useState([]);
+    const hydrationVersion = useRef(0);
+    const loaderRef = useRef(null);
 
     // Filter Lists
     const [categories, setCategories] = useState([]);
@@ -112,23 +116,76 @@ function Search() {
                 });
             }
 
-            // 7. Hydrate Top Results (API lookup for metadata)
-            // Limit to top 50 to avoid too many requests
-            const limitedIds = finalIds.slice(0, 50);
+            // 7. Store Result IDs & Handle Initial Load
+            const currentVersion = ++hydrationVersion.current;
 
-            const hydratedMeals = await Promise.all(limitedIds.map(async (id) => {
-                const res = await axios.get(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`);
-                return res.data.meals ? res.data.meals[0] : null;
-            }));
+            const idsToHydrate = finalIds;
 
-            setResults(hydratedMeals.filter(m => m !== null));
+            setAllResultIds(idsToHydrate);
+            setVisibleCount(30);
+            setResults(Array(idsToHydrate.length).fill(null));
+            setLoading(false);
         } catch (err) {
             console.error("Search failed:", err);
             setResults([]);
-        } finally {
             setLoading(false);
         }
     };
+
+    // Hydration Logic for Infinite Scroll
+    useEffect(() => {
+        if (allResultIds.length === 0) return;
+
+        const currentVersion = hydrationVersion.current;
+        const idsToHydrate = allResultIds.slice(0, visibleCount);
+
+        const hydrate = async () => {
+            // Process currently visible null entries in batches
+            const BATCH_SIZE = 5;
+            for (let i = 0; i < idsToHydrate.length; i += BATCH_SIZE) {
+                if (currentVersion !== hydrationVersion.current) return;
+
+                const batch = idsToHydrate.slice(i, i + BATCH_SIZE);
+
+                await Promise.all(batch.map(async (id, batchIndex) => {
+                    const globalIndex = i + batchIndex;
+
+                    // Only fetch if we don't already have this result
+                    if (results[globalIndex]) return;
+
+                    try {
+                        const res = await axios.get(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`);
+                        if (currentVersion === hydrationVersion.current && res.data.meals) {
+                            setResults(prev => {
+                                if (!Array.isArray(prev) || prev.length === 0) return prev;
+                                // Only update if still null to avoid overwriting newer fetches
+                                if (prev[globalIndex]) return prev;
+                                const newResults = [...prev];
+                                newResults[globalIndex] = res.data.meals[0];
+                                return newResults;
+                            });
+                        }
+                    } catch (err) {
+                        console.error(`Failed to hydrate meal ${id}:`, err);
+                    }
+                }));
+            }
+        };
+
+        hydrate();
+    }, [allResultIds, visibleCount]);
+
+    // Intersection Observer for Infinite Scroll
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && allResultIds.length > visibleCount) {
+                setVisibleCount(prev => Math.min(prev + 30, allResultIds.length));
+            }
+        }, { threshold: 0.1 });
+
+        if (loaderRef.current) observer.observe(loaderRef.current);
+        return () => observer.disconnect();
+    }, [allResultIds, visibleCount]);
 
     const resetFilters = () => {
         setSearchQuery('');
@@ -164,21 +221,49 @@ function Search() {
             );
         }
 
-        return results.map(meal => {
-            const isVegetarian = mealsData.find(m => m.id === meal.idMeal)?.isVegetarian ?? false;
-            return (
-                <FoodCard
-                    key={meal.idMeal}
-                    id={meal.idMeal}
-                    title={meal.strMeal}
-                    image={meal.strMealThumb}
-                    description={meal.strCategory ? `A delicious ${meal.strCategory.toLowerCase()} dish.` : `A tasty recipe to try!`}
-                    time="25 min"
-                    rating={(Math.random() * 1.5 + 3.5).toFixed(1)}
-                    isVegetarian={isVegetarian}
-                />
-            );
-        });
+        return (
+            <>
+                {results.slice(0, visibleCount).map((meal, index) => {
+                    if (!meal) {
+                        return (
+                            <div key={`skeleton-${index}`} className="food-card skeleton-card">
+                                <div className="skeleton-img"></div>
+                                <div className="food-card-content">
+                                    <div className="skeleton-title"></div>
+                                    <div className="skeleton-desc"></div>
+                                </div>
+                            </div>
+                        );
+                    }
+
+                    const isVegetarian = mealsData.find(m => m.id === meal.idMeal)?.isVegetarian ?? false;
+                    return (
+                        <FoodCard
+                            key={meal.idMeal}
+                            id={meal.idMeal}
+                            title={meal.strMeal}
+                            image={meal.strMealThumb}
+                            description={meal.strCategory ? `A delicious ${meal.strCategory.toLowerCase()} dish.` : `A tasty recipe to try!`}
+                            time="25 min"
+                            rating={(Math.random() * 1.5 + 3.5).toFixed(1)}
+                            isVegetarian={isVegetarian}
+                        />
+                    );
+                })}
+                {/* Sentinel for infinite scroll */}
+                {allResultIds.length > visibleCount && (
+                    <div ref={loaderRef} className="infinite-scroll-loader">
+                        <div className="skeleton-card food-card" style={{ opacity: 0.5 }}>
+                            <div className="skeleton-img"></div>
+                            <div className="food-card-content">
+                                <div className="skeleton-title"></div>
+                                <div className="skeleton-desc"></div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+            </>
+        );
     };
 
     return (

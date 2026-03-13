@@ -13,6 +13,7 @@ const CATEGORIES = [
 function CategoryRow({ category }) {
     const [meals, setMeals] = useState(Array(3).fill(null));
     const [bannerMeal, setBannerMeal] = useState(null);
+    const isMounted = React.useRef(true);
 
     useEffect(() => {
         const fetchCategoryMeals = async () => {
@@ -40,15 +41,35 @@ function CategoryRow({ category }) {
                         return { ...meal, customTime, customRating, customDescription, isVegetarian };
                     });
 
-                    setBannerMeal(processed[0]);
-                    setMeals(processed.slice(1, 4));
+                    if (isMounted.current) {
+                        setBannerMeal(processed[0]);
+                        // Initialize with skeletons
+                        setMeals(Array(3).fill(null));
+
+                        // Stagger the cards
+                        processed.slice(1, 4).forEach((meal, index) => {
+                            setTimeout(() => {
+                                if (isMounted.current) {
+                                    setMeals(prev => {
+                                        const newMeals = [...prev];
+                                        newMeals[index] = meal;
+                                        return newMeals;
+                                    });
+                                }
+                            }, index * 150);
+                        });
+                    }
                 }
             } catch (err) {
-                console.error(`Failed to fetch ${category}:`, err);
+                if (isMounted.current) console.error(`Failed to fetch ${category}:`, err);
             }
         };
 
         fetchCategoryMeals();
+
+        return () => {
+            isMounted.current = false;
+        };
     }, [category]);
 
     return (
