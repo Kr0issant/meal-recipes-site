@@ -43,3 +43,24 @@
     grid-column: 1 / -1;
     margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+    .alphabet-container {
+        gap: 0.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .alphabet-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .alphabet-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 0.9rem;
+    }
+}

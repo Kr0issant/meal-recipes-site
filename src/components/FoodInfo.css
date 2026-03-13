@@ -37,6 +37,19 @@
     color: #d16b53;
 }
 
+@media (max-width: 768px) {
+    .food-info-close {
+        top: 1rem;
+        right: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    .food-info-content {
+        padding: 2rem 1rem;
+    }
+}
+
+
 .food-info-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -425,10 +438,12 @@
         order: -1;
         text-align: center;
         margin-bottom: 0;
+        font-size: 3rem;
     }
 
     .food-info-image {
-        max-width: 300px;
+        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
         order: 1;
         align-self: center;
@@ -437,13 +452,58 @@
     .food-info-meta {
         order: 2;
         width: 100%;
+        gap: 0.5rem;
+    }
+
+    .food-info-category,
+    .food-info-area {
+        font-size: 0.9rem;
     }
 
     .food-info-ingredients {
         order: 3;
+        padding: 1.5rem 1rem;
+    }
+
+    .food-info-ingredients h2 {
+        font-size: 2rem;
     }
 
     .food-info-instructions {
         order: 4;
+    }
+
+    .food-info-instructions h2 {
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .instructions-list::before {
+        left: 18px;
+    }
+
+    .step-number {
+        width: 36px;
+        height: 36px;
+        font-size: 1.5rem;
+    }
+
+    .instruction-step {
+        gap: 1rem;
+    }
+
+    .instruction-step p {
+        padding: 1rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .food-info-title {
+        font-size: 2.5rem;
+    }
+
+    .food-info-instructions h2 {
+        font-size: 1.8rem;
     }
 }

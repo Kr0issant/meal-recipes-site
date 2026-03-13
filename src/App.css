@@ -21,3 +21,24 @@
   justify-content: center;
   gap: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem;
+  }
+
+  .home-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .food-cards-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-title {
+    font-size: 1.8rem;
+  }
+}

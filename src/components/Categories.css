@@ -87,7 +87,16 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .categories-list {
+        gap: 1.5rem;
+    }
+
+    .category-banner-title {
+        font-size: 1.8rem;
+    }
 }
+
 
 .skeleton-banner-bg {
     width: 100%;

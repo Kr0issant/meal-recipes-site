@@ -116,3 +116,56 @@
     z-index: 999;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .logo>h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .navbar>ul {
+        gap: 1.5rem;
+        font-size: 1rem;
+        padding-left: 0;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar>ul img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .nav-fav-container,
+    .nav-search-container {
+        width: 24px;
+        height: 24px;
+    }
+
+    .fav-counter {
+        min-width: 14px;
+        height: 14px;
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo>h1 {
+        font-size: 2rem;
+    }
+
+    .navbar>ul {
+        gap: 1rem;
+    }
+}

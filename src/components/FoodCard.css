@@ -183,6 +183,49 @@
     border-radius: 4px;
 }
 
+@media (max-width: 768px) {
+    .food-card {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .food-card-title {
+        font-size: 1.2rem;
+    }
+
+    .food-card-img-container {
+        height: 140px;
+    }
+
+    .favorite-btn {
+        opacity: 1;
+        width: 28px;
+        height: 28px;
+        top: 8px;
+        right: 8px;
+    }
+
+    .favorite-btn img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .food-card {
+        max-width: 160px;
+    }
+
+    .food-card-content {
+        padding: 0.8rem;
+    }
+
+    .food-card-title {
+        font-size: 1.1rem;
+    }
+}
+
 @keyframes loading {
     0% {
         background-position: 200% 0;
